@@ -1,0 +1,26 @@
+{
+  "name": "tpwebsite",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "import:news": "node scripts/import-news.mjs",
+    "extract:assets": "node scripts/extract-assets.mjs",
+    "extract:pages": "node scripts/extract-pages.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.6.0",
+    "@fontsource/inter": "^5.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
