@@ -9,6 +9,7 @@
 
 # --- Brainstorm-/Werkzeug-Artefakte ---
 /.superpowers/
+DEPLOY_KEY.pub.txt
 
 # --- Node / Astro (künftiges Projekt) ---
 node_modules/
