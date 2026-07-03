@@ -1,0 +1,19 @@
+---
+title: "Teraport is intensifying its collaboration with the University of Karlsruhe (TH)"
+date: 2009-03-27
+lang: en
+slug: "teraport-is-intensifying-its-collaboration-with-the-university-of-karlsruhe-th"
+wp_id: 4011
+trid: 3958
+translation: "2009-03-27-teraport-intensiviert-zusammenarbeit-mit-universitaet-karlsruhe-th.md"
+---
+
+Teraport GmbH and the Institute for Information Management in Engineering at the Karlsruhe Institute of Technology (KIT) have agreed to collaborate in the field of digital mock-up (DMU). By using their respective know-how, their joint objective is to shape and promote future developments in the virtual product development market segment, the main focus being on virtual engineering (VE) and Poduct Lifecycle Management (PLM).
+**Teraport delivers a guest lecture at the Institute for Information Management in Engineering**
+At the invitation of Professor Jivka Ovtcharova, the Director of the Institute for Information Management in Engineering (“IMI”), Teraport was given the opportunity of presenting its know-how and current practical experience within the framework of a guest lecture. On the subject of “Simulations in the product planning process”, Marco Santruschek (Divisional Manager Engineering IT Consulting) and Dejan Pantelic (Business Development Manager) delivered a lecture to a large group of mechanical engineering students on the current possibilities in digital prototype construction. With numerous examples of application, the experienced Teraport specialists provided the students with an insight into established simulations and processes in the automobile industry.
+The presentation was rounded off with a “practical live experience” of the Teraport software solutions in the Lifecycle Engineering Solutions Center (LESC). This Center is a central platform for innovative research and teaching at the KIT, and as such has a virtual reality (VR) projection system which leads the field in Germany. In the VR room, the students were able to independently analyze and interactively control examples of the movement of components and assembly groups, as well as assembly and disassembly simulations. In summarizing the outcome of their presentation Dejan Pantelic said: “This was a good opportunity for us to acquaint the students with the potential of our solutions and to make this complex topic easier for them to grasp”.
+**Joint research projects are planned** 
+Thomas Maier (Managing Director “IMI”) described his expectations of the collaboration of his Institute with Teraport GmbH as follows: “I see this event as being a kick-off event for our close collaboration with Teraport. In addition to the joint supervision of diploma theses, we hope that research projects will also result from this collaboration, and that a regular exchange of information between our specialists will take place in the form of guest lectures”.
+**The Institute of Information Management in Engineering** 
+The focal point of research and teaching at the Institute for Information Management in Engineering at the Karlsruhe Institute of Technology (KIT), which is directed by Prof. Dr. Dr.-Ing. Jivka Ovtcharova, is the industrial application of information technology with the main focus on product planning. The Institute concentrates its activities on the global distribution of development, production and sales, as well as on the integrative lifecycle-orientated viewing of products and processes.
+The Lifecycle Engineering Solutions Center (LESC) at the Institute for Information Management in Engineering is a facility providing state-of-the-art information technology. This Center is unique in Germany. In addition to the development of research-intensive engineering solutions for product lifecycle management and the professional qualification of engineers, the LESC provides a professional environment for the transfer of technology and for the continuous exchange of knowledge between Research and Industry.

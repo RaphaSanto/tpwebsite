@@ -1,0 +1,27 @@
+# --- Rohes Backup-Material (NICHT versionieren) ---
+# DB-Dump: enthält sensible Daten (Benutzer, Passwort-Hashes) -> niemals ins Repo
+*.sql
+*.sql.gz
+# Große Backup-Archive
+*.zip
+# Entpacktes Uploads-Backup (~194 MB Binärdateien, Quelle für selektive Übernahme)
+/wordpress-restore/
+
+# --- Brainstorm-/Werkzeug-Artefakte ---
+/.superpowers/
+
+# --- Node / Astro (künftiges Projekt) ---
+node_modules/
+dist/
+.astro/
+.output/
+.vercel/
+.netlify/
+.env
+.env.*
+!.env.example
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.log

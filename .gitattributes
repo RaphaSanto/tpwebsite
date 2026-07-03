@@ -1,0 +1,12 @@
+# Einheitliche Zeilenenden: Text als LF normalisieren, Git entscheidet automatisch
+* text=auto eol=lf
+
+# Binärdateien nicht anfassen
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
