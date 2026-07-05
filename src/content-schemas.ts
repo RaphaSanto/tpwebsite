@@ -9,7 +9,7 @@ export const newsSchema = z.object({
   slug: z.string(),
   wp_id: z.number().optional(),
   trid: z.number().optional(),
-  translation: z.string().optional(),
+  translation: z.string().nullable().optional(),
 });
 
 export const productSchema = z.object({
