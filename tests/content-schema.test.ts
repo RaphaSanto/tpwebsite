@@ -15,6 +15,11 @@ describe('newsSchema', () => {
     expect(() => newsSchema.parse({ title: 'x', date: '2025-01-01', lang: 'fr', slug: 's' }))
       .toThrow();
   });
+
+  it('akzeptiert translation: null (reale DE-Daten)', () => {
+    const parsed = newsSchema.parse({ title: 'x', date: '2025-01-01', lang: 'de', slug: 's', translation: null });
+    expect(parsed.translation).toBeNull();
+  });
 });
 
 describe('productSchema', () => {
