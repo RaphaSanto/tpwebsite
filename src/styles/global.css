@@ -28,3 +28,19 @@ img { max-width: 100%; height: auto; display: block; }
 a { color: var(--tp-blue); }
 h1, h2, h3 { line-height: 1.15; color: var(--tp-ink); }
 .tp-container { max-width: var(--tp-maxw); margin-inline: auto; padding-inline: 1.25rem; }
+
+/* --- Inhaltsseiten (Prose) --- */
+.prose { max-width: 46rem; margin-inline: auto; padding-block: 2.5rem; }
+.prose h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.prose blockquote {
+  margin: 2rem 0 0.75rem; padding: 0;
+  border: 0; color: var(--tp-blue); font-weight: 800; font-size: 1.2rem;
+}
+.prose ul { padding-left: 1.25rem; }
+.prose li { margin-block: 0.25rem; }
+.prose a { word-break: break-word; }
+.teaser { color: var(--tp-gray); font-size: 1.1rem; margin-top: 0; }
+
+/* --- Abschnitts-Utilities --- */
+.section { padding-block: 3rem; }
+.section-title { font-size: 1.5rem; margin-bottom: 1.25rem; }

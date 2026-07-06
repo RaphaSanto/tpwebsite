@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import logoWhite from '../assets/uploads/2015/02/TP_340_trans_white.png';
+import { t, type Lang } from '../i18n/ui.ts';
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const p = (de: string, en: string) => (lang === 'en' ? en : de);
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="tp-container cols">
+    <div>
+      <Image src={logoWhite} alt="Teraport" height={40} densities={[1, 2]} />
+      <p class="tagline">{t(lang, 'footer.tagline')}</p>
+    </div>
+    <address>
+      Teraport GmbH<br />
+      Kellerstr. 29<br />
+      81667 München<br />
+      <a href="tel:+4989651086700">+49 (0)89 651086 700</a><br />
+      <a href="mailto:info@teraport.de">info@teraport.de</a>
+    </address>
+    <nav aria-label="Rechtliches">
+      <a href={p('/impressum/', '/en/legal-notice/')}>{t(lang, 'footer.legal')}</a>
+      <a href={p('/datenschutz/', '/en/data-privacy/')}>{t(lang, 'footer.privacy')}</a>
+    </nav>
+  </div>
+  <div class="tp-container copy">© {year} Teraport GmbH</div>
+</footer>
+<style>
+  .site-footer { background: var(--tp-ink); color: #cfd8e3; margin-top: 4rem; padding-block: 2.5rem 1.25rem; font-size: 0.95rem; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; align-items: start; }
+  .tagline { color: var(--tp-blue-light); margin-top: 0.75rem; }
+  address { font-style: normal; line-height: 1.8; }
+  .site-footer a { color: #e8eef5; text-decoration: none; }
+  .site-footer a:hover { color: var(--tp-blue-light); }
+  .site-footer nav { display: grid; gap: 0.5rem; }
+  .copy { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #2a3b52; color: #8a97a6; font-size: 0.85rem; }
+</style>

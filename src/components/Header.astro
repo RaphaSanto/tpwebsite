@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/uploads/2015/02/TP_340_trans.png';
+import { t, type Lang } from '../i18n/ui.ts';
+interface Props { lang: Lang; altHref: string; }
+const { lang, altHref } = Astro.props;
+const p = (de: string, en: string) => (lang === 'en' ? en : de);
+---
+<header class="site-header">
+  <div class="tp-container inner">
+    <a href={p('/', '/en/')} class="brand" aria-label="Teraport – Startseite">
+      <Image src={logo} alt="Teraport" height={44} densities={[1, 2]} />
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <a href={p('/mido/', '/en/mido/')}>mido</a>
+      <a href={p('/veo/', '/en/veo/')}>veo</a>
+      <a href={p('/unternehmen/', '/en/company/')}>{t(lang, 'nav.company')}</a>
+      <a href={p('/news/', '/en/news/')}>{t(lang, 'nav.news')}</a>
+      <a href={p('/kontakt/', '/en/contact/')} class="cta">{t(lang, 'nav.contact')}</a>
+      <a href={altHref} class="lang" rel="alternate" hreflang={lang === 'de' ? 'en' : 'de'}>
+        {lang === 'de' ? 'EN' : 'DE'}
+      </a>
+    </nav>
+  </div>
+</header>
+<style>
+  .site-header { background: var(--tp-white); border-bottom: 1px solid #e5e9ef; }
+  .inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.6rem; flex-wrap: wrap; }
+  .brand img { display: block; }
+  nav { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
+  nav a { color: var(--tp-ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+  nav a:hover { color: var(--tp-blue); }
+  nav a.cta { background: var(--tp-blue); color: var(--tp-white); padding: 0.45rem 0.9rem; border-radius: 6px; }
+  nav a.cta:hover { filter: brightness(1.08); color: var(--tp-white); }
+  nav a.lang { border: 1px solid var(--tp-blue-light); color: var(--tp-blue); padding: 0.3rem 0.55rem; border-radius: 6px; font-size: 0.85rem; }
+</style>

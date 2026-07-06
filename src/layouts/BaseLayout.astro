@@ -12,8 +12,6 @@ const { title, lang = 'de', description = '' } = Astro.props;
     {description && <meta name="description" content={description} />}
   </head>
   <body>
-    <main class="tp-container">
-      <slot />
-    </main>
+    <slot />
   </body>
 </html>
