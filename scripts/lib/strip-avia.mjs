@@ -2,8 +2,8 @@
 
 /** Extrahiert ein Attribut aus einem Shortcode-Tag-Inhalt. */
 function attr(tagBody, name) {
-  const m = tagBody.match(new RegExp(`${name}\\s*=\\s*'([^']*)'`));
-  return m ? m[1] : '';
+  const m = tagBody.match(new RegExp(`${name}\\s*=\\s*'((?:[^'\\\\]|\\\\.)*)'`));
+  return m ? m[1].replace(/\\'/g, "'").replace(/\\\\/g, '\\') : '';
 }
 
 /**
@@ -23,6 +23,18 @@ export function stripAvia(content) {
 
   // 2) Textblöcke: Wrapper entfernen, Inhalt behalten
   out = out.replace(/\[av_textblock\b[^\]]*\]([\s\S]*?)\[\/av_textblock\]/g, (_, inner) => `\n${inner}\n`);
+
+  // 2b) av_button -> sichtbaren Label-Text als eigene Zeile behalten
+  out = out.replace(/\[av_button\b([^\]]*)\]/g, (_, body) => {
+    const label = attr(body, 'label');
+    return label ? `\n${label}\n` : '';
+  });
+
+  // 2c) av_image -> sichtbare Caption (falls vorhanden) als eigene Zeile behalten
+  out = out.replace(/\[av_image\b([^\]]*)\](?:[\s\S]*?\[\/av_image\])?/g, (_, body) => {
+    const caption = attr(body, 'caption');
+    return caption ? `\n${caption}\n` : '';
+  });
 
   // 3) Alle übrigen paarigen Layout-Shortcodes: Wrapper entfernen, Inhalt behalten
   //    (mehrfach anwenden für Verschachtelung)
