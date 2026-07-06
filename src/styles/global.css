@@ -11,7 +11,7 @@
   --tp-bg: #f5f7fa;
   --tp-white: #ffffff;
 
-  --tp-font: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --tp-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --tp-maxw: 1120px;
 }
 
