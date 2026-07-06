@@ -1,0 +1,16 @@
+---
+import { t, type Lang } from '../i18n/ui.ts';
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const items = [t(lang, 'benefits.1'), t(lang, 'benefits.2'), t(lang, 'benefits.3')];
+---
+<section class="benefits">
+  <div class="tp-container row">
+    {items.map((b) => <span>✓ {b}</span>)}
+  </div>
+</section>
+<style>
+  .benefits { background: var(--tp-bg); padding-block: 1.25rem; }
+  .row { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; color: var(--tp-ink); font-weight: 600; }
+  span { white-space: nowrap; }
+</style>

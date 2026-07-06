@@ -1,36 +1,36 @@
 ---
 import { getCollection } from 'astro:content';
-import SiteLayout from '../layouts/SiteLayout.astro';
-import Hero from '../components/Hero.astro';
-import ProductTile from '../components/ProductTile.astro';
-import BenefitsBar from '../components/BenefitsBar.astro';
-import NewsCard from '../components/NewsCard.astro';
-import { t } from '../i18n/ui.ts';
-import { newsByLang, newsPath } from '../lib/news.ts';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Hero from '../../components/Hero.astro';
+import ProductTile from '../../components/ProductTile.astro';
+import BenefitsBar from '../../components/BenefitsBar.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { t } from '../../i18n/ui.ts';
+import { newsByLang, newsPath } from '../../lib/news.ts';
 
-const lang = 'de' as const;
+const lang = 'en' as const;
 const products = (await getCollection('products', (e) => e.data.lang === lang))
   .sort((a, b) => a.data.order - b.data.order);
 const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
 ---
 <SiteLayout
-  title="Teraport – Software für Werkzeugkostenkalkulation & 3D-Visualisierung"
+  title="Teraport – Software for tool cost calculation & 3D visualization"
   lang={lang}
-  description="Teraport GmbH: mido (Werkzeugkostenkalkulation aus CAD) und veo (3D-Viewer für große Baugruppen). Software und Engineering aus München."
-  altHref="/en/"
+  description="Teraport GmbH: mido (tool cost calculation from CAD) and veo (3D viewer for large assemblies). Software and engineering from Munich."
+  altHref="/"
 >
   <Hero
     kicker={t(lang, 'home.hero.kicker')}
     title={t(lang, 'home.hero.title')}
     ctaLabel={t(lang, 'home.hero.cta')}
-    ctaHref="/kontakt/"
+    ctaHref="/en/contact/"
   />
 
   <section class="tp-container section">
     <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
     <div class="grid-2">
       {products.map((p) => (
-        <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/${p.data.slug}/`} more={t(lang, 'product.more')} />
+        <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/en/${p.data.slug}/`} more={t(lang, 'product.more')} />
       ))}
     </div>
   </section>
@@ -40,7 +40,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
   <section class="tp-container section">
     <div class="row-between">
       <h2 class="section-title">{t(lang, 'home.news.title')}</h2>
-      <a href="/news/">{t(lang, 'home.news.all')} →</a>
+      <a href="/en/news/">{t(lang, 'home.news.all')} →</a>
     </div>
     <div class="grid-3">
       {latest.map((n) => (

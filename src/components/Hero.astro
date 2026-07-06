@@ -1,0 +1,18 @@
+---
+interface Props { kicker: string; title: string; ctaLabel: string; ctaHref: string; }
+const { kicker, title, ctaLabel, ctaHref } = Astro.props;
+---
+<section class="hero">
+  <div class="tp-container">
+    <p class="kicker">{kicker}</p>
+    <h1>{title}</h1>
+    <a class="cta" href={ctaHref}>{ctaLabel}</a>
+  </div>
+</section>
+<style>
+  .hero { background: linear-gradient(135deg, var(--tp-blue) 0%, #1d4e86 100%); color: var(--tp-white); padding-block: 4.5rem; }
+  .kicker { color: var(--tp-blue-light); letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.85rem; font-weight: 700; margin: 0 0 0.75rem; }
+  h1 { color: var(--tp-white); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin: 0 0 1.5rem; max-width: 34ch; }
+  .cta { display: inline-block; background: var(--tp-white); color: var(--tp-blue); font-weight: 700; padding: 0.7rem 1.4rem; border-radius: 8px; text-decoration: none; }
+  .cta:hover { filter: brightness(0.95); }
+</style>

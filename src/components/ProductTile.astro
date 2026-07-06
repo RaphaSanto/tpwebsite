@@ -1,0 +1,16 @@
+---
+interface Props { title: string; teaser: string; href: string; more: string; }
+const { title, teaser, href, more } = Astro.props;
+---
+<a class="tile" href={href}>
+  <h3>{title}</h3>
+  <p>{teaser}</p>
+  <span class="more">{more} →</span>
+</a>
+<style>
+  .tile { display: flex; flex-direction: column; gap: 0.5rem; background: var(--tp-white); border: 1px solid #e5e9ef; border-radius: 10px; padding: 1.5rem; text-decoration: none; color: var(--tp-ink); transition: box-shadow 0.15s ease, border-color 0.15s ease; }
+  .tile:hover { border-color: var(--tp-blue-light); box-shadow: 0 4px 18px rgb(18 35 58 / 8%); }
+  h3 { margin: 0; font-size: 1.35rem; color: var(--tp-blue); }
+  p { margin: 0; color: var(--tp-gray); }
+  .more { color: var(--tp-blue); font-weight: 700; font-size: 0.9rem; margin-top: auto; }
+</style>
