@@ -28,12 +28,24 @@ function splitRows(s) {
   return rows;
 }
 
+// mysqldump-Escape-Sequenzen -> echtes Zeichen. Alles Undefinierte bleibt
+// wie bisher: Backslash entfernen, Zeichen unverändert übernehmen.
+const ESCAPE_MAP = {
+  n: '\n',
+  r: '\r',
+  t: '\t',
+  '0': '\0',
+  "'": "'",
+  '"': '"',
+  '\\': '\\',
+};
+
 function splitFields(row) {
   const out = [];
   let cur = '', inq = false, esc = false;
   for (const c of row) {
     if (inq) {
-      if (esc) { cur += c; esc = false; }
+      if (esc) { cur += (c in ESCAPE_MAP ? ESCAPE_MAP[c] : c); esc = false; }
       else if (c === '\\') { esc = true; }        // Escape-Zeichen verwerfen
       else if (c === "'") inq = false;
       else cur += c;
