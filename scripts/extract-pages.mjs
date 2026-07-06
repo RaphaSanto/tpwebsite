@@ -38,7 +38,7 @@ const missing = [];
 for (const [id, meta] of Object.entries(TARGETS)) {
   const post = byId.get(Number(id));
   if (!post) { missing.push(id); continue; }
-  const body = stripAvia(post.content);
+  const body = stripAvia(post.content.replace(/\r\n?/g, '\n'));
   const fm = `---\ntitle: ${JSON.stringify(post.title)}\nlang: ${meta.lang}\nslug: ${JSON.stringify(meta.slug)}\n---\n\n`;
   await writeFile(join(DEST, meta.lang, `${meta.slug}.md`), fm + body + '\n', 'utf8');
   n++;

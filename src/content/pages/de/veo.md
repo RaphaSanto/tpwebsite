@@ -6,24 +6,7 @@ slug: "veo"
 
 <blockquote><em>veo</em></blockquote>
 
-
-
-
-
-
-
-
-
-
 Mit <em>veo</em> stellt Teraport seinen Kunden einen leistungsfähigen 3D-Viewer zur Verfügung. Im Focus steht die schnelle Visualisierung großer Baugruppen. Durch eine Vielzahl verfügbarer CAD Schnittstellen ist praktisch jedes gängige 3D-Modell einles- und darstellbar. Neben grundsätzlichen Funktionen wie Messen und Schneiden, bietet <em>veo</em> eine breite Auswahl an Zusatzfunktionen im Umfeld DMU, Analyse, Kalkulation und Simulation, die in optional erhältlichen Workbenches gruppiert sind. Das Besondere: Für ambitionierte Kunden mit besonderen Anforderungen kann <em>veo</em> durch sein flexibles Konzept die Basis für individuelle Applikationen sein, die sich der Visualisierung und Interaktion mit 3D Bauteilen bedienen. Die Architektur ermöglicht die schnelle aber stabile Umsetzung kundenspezifischer Plugins. Ein in der Praxis verifiziertes Konzept.
-
-
-
-
-
-
-
-
 
 <blockquote><em>veo</em>, die Funktionen im Überblick:</blockquote>
 <ul>
