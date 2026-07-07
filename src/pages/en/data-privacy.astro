@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const entry = await getEntry('pages', 'en/data-privacy');
+if (!entry) throw new Error('Content pages/en/data-privacy fehlt – npm run migrate ausführen.');
+const { Content } = await render(entry);
+---
+<SiteLayout title={`${entry.data.title} – Teraport`} lang="en" altHref="/datenschutz/">
+  <article class="tp-container prose">
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</SiteLayout>
