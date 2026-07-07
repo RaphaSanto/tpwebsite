@@ -4,9 +4,9 @@
 // 11 name,12 to_ping,13 pinged,14 modified,15 modified_gmt,16 content_filtered,
 // 17 parent,18 guid,19 menu_order,20 type,21 mime_type,22 comment_count
 
-function splitRows(s) {
+function splitRows(s, marker = 'INSERT INTO `wp_posts` VALUES') {
   const rows = [];
-  let i = s.indexOf('INSERT INTO `wp_posts` VALUES');
+  let i = s.indexOf(marker);
   while (i !== -1) {
     i = s.indexOf('(', i);
     let depth = 0, inq = false, esc = false, row = '';
@@ -23,7 +23,7 @@ function splitRows(s) {
       else if (c === ';' && depth === 0) break;
       else if (depth > 0) row += c;
     }
-    i = s.indexOf('INSERT INTO `wp_posts` VALUES', i);
+    i = s.indexOf(marker, i);
   }
   return rows;
 }
@@ -70,6 +70,17 @@ export function parseWpPosts(sql) {
       name: f[11],
       type: f[20],
     });
+  }
+  return rows;
+}
+
+// wp_postmeta-Spalten: 0 meta_id, 1 post_id, 2 meta_key, 3 meta_value
+export function parseWpPostmeta(sql) {
+  const rows = [];
+  for (const raw of splitRows(sql, 'INSERT INTO `wp_postmeta` VALUES')) {
+    const f = splitFields(raw);
+    if (f.length < 4) continue;
+    rows.push({ postId: Number(f[1]), key: f[2], value: f[3] });
   }
   return rows;
 }
