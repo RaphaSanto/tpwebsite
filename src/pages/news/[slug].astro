@@ -1,0 +1,28 @@
+---
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { t } from '../../i18n/ui.ts';
+import { newsSlug, counterpartPath } from '../../lib/news.ts';
+
+export async function getStaticPaths() {
+  const all = await getCollection('news');
+  return all
+    .filter((e) => e.data.lang === 'de')
+    .map((entry) => ({
+      params: { slug: newsSlug(entry.id) },
+      props: { entry, altHref: counterpartPath(entry, all) },
+    }));
+}
+
+const { entry, altHref } = Astro.props;
+const { Content } = await render(entry);
+const fmt = entry.data.date.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<SiteLayout title={`${entry.data.title} – Teraport`} lang="de" altHref={altHref}>
+  <article class="tp-container prose">
+    <p><a href="/news/">← {t('de', 'news.back')}</a></p>
+    <time datetime={entry.data.date.toISOString().slice(0, 10)}>{fmt}</time>
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</SiteLayout>

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { t } from '../../i18n/ui.ts';
+import { newsByLang, newsPath } from '../../lib/news.ts';
+
+const lang = 'de' as const;
+const entries = newsByLang(await getCollection('news'), lang);
+---
+<SiteLayout title="News – Teraport" lang={lang} altHref="/en/news/">
+  <section class="tp-container section">
+    <h1>{t(lang, 'news.title')}</h1>
+    <div class="list">
+      {entries.map((n) => (
+        <NewsCard title={n.data.title} date={n.data.date} href={newsPath(n)} lang={lang} />
+      ))}
+    </div>
+  </section>
+</SiteLayout>
+<style>
+  .list { display: grid; gap: 0.9rem; margin-top: 1.5rem; }
+</style>
