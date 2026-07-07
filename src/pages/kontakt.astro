@@ -1,0 +1,30 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { t } from '../i18n/ui.ts';
+const lang = 'de' as const;
+---
+<SiteLayout title="Kontakt – Teraport" lang={lang} altHref="/en/contact/">
+  <section class="tp-container section contact">
+    <h1>{t(lang, 'contact.title')}</h1>
+    <p class="teaser">{t(lang, 'contact.intro')}</p>
+    <div class="card">
+      <address>
+        <strong>Teraport GmbH</strong><br />
+        Kellerstr. 29<br />
+        81667 München
+      </address>
+      <p>
+        Tel.: <a href="tel:+4989651086700">+49 (0)89 651086 700</a><br />
+        E-Mail: <a href="mailto:info@teraport.de">info@teraport.de</a>
+      </p>
+      <a class="cta" href="mailto:info@teraport.de?subject=Anfrage%20%C3%BCber%20teraport.de">{t(lang, 'contact.mail.cta')}</a>
+    </div>
+  </section>
+</SiteLayout>
+<style>
+  .contact { max-width: 46rem; margin-inline: auto; }
+  .card { background: var(--tp-bg); border-radius: 10px; padding: 1.75rem; margin-top: 1.5rem; }
+  address { font-style: normal; line-height: 1.8; }
+  .cta { display: inline-block; background: var(--tp-blue); color: var(--tp-white); font-weight: 700; padding: 0.65rem 1.3rem; border-radius: 8px; text-decoration: none; margin-top: 0.75rem; }
+  .cta:hover { filter: brightness(1.08); }
+</style>
