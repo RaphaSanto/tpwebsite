@@ -2,6 +2,8 @@ export type Lang = 'de' | 'en';
 
 const strings = {
   de: {
+    'nav.products': 'Produkte',
+    'nav.services': 'Services',
     'nav.company': 'Unternehmen',
     'nav.news': 'News',
     'nav.contact': 'Kontakt',
@@ -25,6 +27,8 @@ const strings = {
     'product.more': 'Mehr erfahren',
   },
   en: {
+    'nav.products': 'Products',
+    'nav.services': 'Services',
     'nav.company': 'Company',
     'nav.news': 'News',
     'nav.contact': 'Contact',

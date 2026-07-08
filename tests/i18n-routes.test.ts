@@ -21,11 +21,21 @@ describe('altPath', () => {
     expect(altPath('/gibt-es-nicht/')).toBe('/en/');
     expect(altPath('/en/does-not-exist/')).toBe('/');
   });
+  it('mappt die neuen Produkt-/Service-Routen', () => {
+    expect(altPath('/toolkit/')).toBe('/en/toolkit/');
+    expect(altPath('/connect/')).toBe('/en/connect/');
+    expect(altPath('/en/services/')).toBe('/services/');
+  });
 });
 
 describe('t', () => {
   it('liefert Strings je Sprache', () => {
     expect(t('de', 'nav.contact')).toBe('Kontakt');
     expect(t('en', 'nav.contact')).toBe('Contact');
+  });
+  it('kennt die neuen Nav-Strings', () => {
+    expect(t('de', 'nav.products')).toBe('Produkte');
+    expect(t('en', 'nav.products')).toBe('Products');
+    expect(t('de', 'nav.services')).toBe('Services');
   });
 });
