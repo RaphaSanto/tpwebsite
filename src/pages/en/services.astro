@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const ids = ['en/services', 'en/engineering', 'en/software-development'];
+const sections = [];
+for (const id of ids) {
+  const entry = await getEntry('pages', id);
+  if (!entry) throw new Error(`Content pages/${id} fehlt – npm run migrate ausführen.`);
+  const { Content } = await render(entry);
+  sections.push(Content);
+}
+---
+<SiteLayout title="Services – Teraport" lang="en" altHref="/services/">
+  <article class="tp-container prose">
+    <h1>Services</h1>
+    {sections.map((Content) => <section><Content /></section>)}
+  </article>
+</SiteLayout>
