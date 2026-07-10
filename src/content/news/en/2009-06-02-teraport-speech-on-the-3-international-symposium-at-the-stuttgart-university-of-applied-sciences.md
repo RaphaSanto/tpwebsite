@@ -6,6 +6,7 @@ slug: "teraport-speech-on-the-3-international-symposium-at-the-stuttgart-univers
 wp_id: 4006
 trid: 3957
 translation: "2009-06-02-teraport-praxis-vortrag-auf-3-internationalen-symposium-an-der-hft-stuttgart.md"
+image: "/assets/uploads/2009/01/News_000_default.jpg"
 ---
 
 On invitation from the Stuttgart University of Applied Sciences, Raphael Heilig (Salesmanager at Teraport GmbH) gave a practical speech at the 3. International Symposium “Geometric modelizing, visualisation and image editing“. Beside many theoretical lectures, the contribution “Application of efficient algorithm in automotive engineering“ informs about the automated implementation of the algorithm in practice. Increases in efficiency, which could be achieved by the use of an integrated and automated geometric clash and clearance analysis were demonstrated.

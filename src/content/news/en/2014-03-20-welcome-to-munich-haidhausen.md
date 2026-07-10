@@ -6,6 +6,7 @@ slug: "welcome-to-munich-haidhausen"
 wp_id: 3926
 trid: 3943
 translation: "2014-03-20-willkommen-in-muenchen-haidhausen.md"
+image: "/assets/uploads/2014/03/News_017_Umzug.jpg"
 ---
 
 Teraport is moving. In the course of the relocation of its headquarter from Dreieich to Munich (Amtsgericht München, HRB 210303) Teraport is also moving to a new office location within Munich, in the area of Haidhausen.

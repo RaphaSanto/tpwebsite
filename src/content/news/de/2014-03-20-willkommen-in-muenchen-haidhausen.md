@@ -6,6 +6,7 @@ slug: "willkommen-in-muenchen-haidhausen"
 wp_id: 3897
 trid: 3943
 translation: "2014-03-20-welcome-to-munich-haidhausen.md"
+image: "/assets/uploads/2014/03/News_017_Umzug.jpg"
 ---
 
 Die Teraport GmbH zieht um. Im Zuge einer Sitzverlegung des Firmensitzes von Dreieich nach München (Amtsgericht München, HRB 210303) bezieht die Teraport neue Geschäftsräume in München Haidhausen.

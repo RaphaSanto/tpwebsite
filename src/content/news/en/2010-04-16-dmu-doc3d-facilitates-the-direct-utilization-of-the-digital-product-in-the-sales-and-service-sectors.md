@@ -6,6 +6,7 @@ slug: "dmu-doc3d-facilitates-the-direct-utilization-of-the-digital-product-in-th
 wp_id: 3981
 trid: 3952
 translation: "2010-04-16-dmu-doc3d-macht-das-digitale-produkt-im-vertrieb-und-service-nutzbar.md"
+image: "/assets/uploads/2015/03/News_008_Doc3D.jpg"
 ---
 
 From Nov. 3rd until Nov. 5th 2010, as in recent years, all the experts in the field of technical documentation met at tekom's tcworld conference 2010. As established provider of software solutions for DMU-simulations on virtual prototypes, the munich based technology corporation presented its newest product DMU.Doc3D. This software allows the efficient creation of technical illustrations from 3D-CAD Data.

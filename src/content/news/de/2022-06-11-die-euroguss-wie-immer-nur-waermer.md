@@ -6,6 +6,7 @@ slug: "die-euroguss-wie-immer-nur-waermer"
 wp_id: 5340
 trid: 9451
 translation: "2022-06-11-euroguss-only-warmer.md"
+image: "/assets/uploads/2023/05/IMG_3772-scaled.jpg"
 ---
 
 Vier volle Hallen, begeisterte Besucher und zufriedene Aussteller – das war die EUROGUSS 2022, die vom 08. Bis 10. Juni in Nürnberg stattfand. Aufgrund der Pandemie präsentierten insgesamt 638 Aussteller aus 34 Ländern sich den rund 10.000 Fachbesuchern bei ungewohnt warmen Temperaturen und nicht wie sonst im Winter. So wurde auch die immer spektakuläre Messeparty mit Showband diesmal zur open Air Veranstaltung.

@@ -6,6 +6,7 @@ slug: "teraport-praesentiert-mido-auf-der-moulding-expo-2025-intelligente-werkze
 wp_id: 8916
 trid: 9540
 translation: null
+image: "/assets/uploads/2025/05/Newsmeldung_MoldEx2025_01.jpg"
 ---
 
 **Messehighlight mit Innovationskraft:**

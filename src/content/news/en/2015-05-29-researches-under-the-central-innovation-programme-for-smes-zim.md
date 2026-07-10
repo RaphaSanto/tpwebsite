@@ -6,6 +6,7 @@ slug: "researches-under-the-central-innovation-programme-for-smes-zim"
 wp_id: 4568
 trid: 4147
 translation: "2015-05-29-forschung-im-rahmen-des-zentralen-innovationsprogramms-mittelstand.md"
+image: "/assets/uploads/2015/06/News_019_Zim.jpg"
 ---
 
 The Central Innovation Programme for SMEs (ZIM) is a nationwide funding program, open to all technologies and sectors, of the Federal Ministry for Economic Affairs and Energy. Teraport GmbH has been engaged in developing the framework since 2014 with the implementation of an innovative development project.

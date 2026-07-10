@@ -6,6 +6,7 @@ slug: "gemeinsamer-fachartikel-von-behr-und-teraport-servicetaugliche-produkte"
 wp_id: 4013
 trid: 3959
 translation: "2009-03-10-technical-article-by-behr-and-teraport-serviceable-products.md"
+image: "/assets/uploads/2009/01/News_000_default.jpg"
 ---
 
 Die Behr GmbH & Co. KG hat mithilfe von DMU.Planner, ein Modul aus dem Teraport DMU-Toolkit, ein zukunftsweisendes Projekt umgesetzt. Die Erfahrungen und Ergebnisse wurden in der aktuellen Ausgabe (1-2/2009) des CAD CAM Magazins veröffentlicht. Unter dem Titel „Wie servicetauglich ist das Produkt?“ haben Jochen Kraft, Leiter Engineering Tools, Johannes Biedert, CAD Support Engineering von Behr und Hermann Gaigl, Geschäftsführer der Teraport GmbH, gemeinsam beschrieben, welche Ergebnisse erzielt wurden.

@@ -23,6 +23,10 @@ const fmt = entry.data.date.toLocaleDateString('de-DE', { year: 'numeric', month
     <p><a href="/news/">← {t('de', 'news.back')}</a></p>
     <time datetime={entry.data.date.toISOString().slice(0, 10)}>{fmt}</time>
     <h1>{entry.data.title}</h1>
+    {entry.data.image && <img class="hero-img" src={entry.data.image} alt="" loading="lazy" />}
     <Content />
   </article>
 </SiteLayout>
+<style>
+  .hero-img { width: 100%; border-radius: 10px; margin-block: 1rem; }
+</style>

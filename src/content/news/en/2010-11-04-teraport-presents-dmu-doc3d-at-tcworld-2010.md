@@ -6,6 +6,7 @@ slug: "teraport-presents-dmu-doc3d-at-tcworld-2010"
 wp_id: 3973
 trid: 3951
 translation: "2010-11-08-teraport-praesentiert-dmu-doc3d-auf-der-tekom-2010.md"
+image: "/assets/uploads/2015/03/News_009_Tekom.jpg"
 ---
 
 From Nov. 3rd until Nov. 5th 2010, as in recent years, all the experts in the field of technical documentation met at tekom's tcworld conference 2010. As established provider of software solutions for DMU-simulations on virtual prototypes, the munich based technology corporation presented its newest product DMU.Doc3D. This software allows the efficient creation of technical illustrations from 3D-CAD Data.

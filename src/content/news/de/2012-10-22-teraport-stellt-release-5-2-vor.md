@@ -6,6 +6,7 @@ slug: "teraport-stellt-release-5-2-vor"
 wp_id: 3943
 trid: 3945
 translation: "2012-10-22-teraport-introduces-release-5-2.md"
+image: "/assets/uploads/2012/10/News_015_Pathfinder_View.jpg"
 ---
 
 Teraport stellte vergangene Woche in München die Version 5.2. seines flexiblen Software Baukastens DMU-Toolkit vor. Mit dem aktuellen Release stehen den Kunden des Unternehmens zahlreiche neue Funktionen und Verbesserungen zur Verfügung. So ermöglicht die neue Integration der aus der Workflow-Oberfläche DMU.Connect bekannten Workflows Pro.PathFinder und Pro.PathFreezer in Teraports Viewer DMU.View eine noch komfortablere Ansteuerung der Funktionen Ein- und Ausbausimulation sowie dynamische Hüllgenerierung. Besonders die Workbench PathFinder gestattet es dem User einige erweiterte Funktionen wie eine Vorzugsrichtung beim Ausbau oder die einfache Definition flexibler Umgebungsbauteile zu nutzen. "

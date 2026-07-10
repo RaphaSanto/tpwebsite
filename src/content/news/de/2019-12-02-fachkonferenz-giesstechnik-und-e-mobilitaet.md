@@ -6,6 +6,7 @@ slug: "fachkonferenz-giesstechnik-und-e-mobilitaet"
 wp_id: 5092
 trid: 4314
 translation: "2019-12-02-conference-on-casting-technology-and-electric-mobility.md"
+image: "/assets/uploads/2019/12/vdi_emobilitaet.jpg"
 ---
 
 Gießtechnik ist im Bereich der Fertigung herkömmlicher Verbrennungsmotoren weit verbreitet. Mit welchen neuen Einsatzmöglichkeiten aber auch Anforderungen sich die Branche jedoch in Bezug auf die E-Mobilität auseinandersetzen muss, darüber tauschten sich OEM's, Supplier und Gießer vergangene Woche im Rahmen einer VDI-Fachkonferenz in Bremen aus. Teraport nutzte die Gelegenheit seine Software veoCAST in der aktuellen Version 7.0 zu präsentieren.

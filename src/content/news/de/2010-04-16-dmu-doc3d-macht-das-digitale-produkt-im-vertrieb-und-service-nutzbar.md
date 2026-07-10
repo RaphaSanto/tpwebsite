@@ -6,6 +6,7 @@ slug: "dmu-doc3d-macht-das-digitale-produkt-im-vertrieb-und-service-nutzbar"
 wp_id: 3975
 trid: 3952
 translation: "2010-04-16-dmu-doc3d-facilitates-the-direct-utilization-of-the-digital-product-in-the-sales-and-service-sectors.md"
+image: "/assets/uploads/2015/03/News_008_Doc3D.jpg"
 ---
 
 Teraport stellt erstmalig das neue Modul DMU.Doc3D zur Produktvisualisierung für die technische Dokumentation auf der Digital Factory und tekom Frühjahrstagung vor. Mit dieser neuen Lösung wird das Teraport Software-Leistungsportfolio tiefgreifend erweitert und adressiert zusätzlich die Unternehmensbereiche Vertrieb, Marketing und Service.

@@ -10,6 +10,7 @@ export const newsSchema = z.object({
   wp_id: z.number().optional(),
   trid: z.number().optional(),
   translation: z.string().nullable().optional(),
+  image: z.string().optional(),
 });
 
 export const productSchema = z.object({

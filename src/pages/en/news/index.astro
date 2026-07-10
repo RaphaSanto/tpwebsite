@@ -13,7 +13,7 @@ const entries = newsByLang(await getCollection('news'), lang);
     <h1>{t(lang, 'news.title')}</h1>
     <div class="list">
       {entries.map((n) => (
-        <NewsCard title={n.data.title} date={n.data.date} href={newsPath(n)} lang={lang} />
+        <NewsCard title={n.data.title} date={n.data.date} href={newsPath(n)} lang={lang} image={n.data.image} />
       ))}
     </div>
   </section>

@@ -6,6 +6,7 @@ slug: "pushing-the-limits-teraport-demonstrates-hands-on-innovation-with-veo"
 wp_id: 8627
 trid: 9538
 translation: "2025-05-09-da-geht-noch-mehr-teraport-ueberzeugt-mit-praxisnaehe-von-veo-auf-dem-aalener-giesserei-kolloquium-2025.md"
+image: "/assets/uploads/2025/05/Newsmeldung_Aalen_2025.jpg"
 ---
 
 Innovative Approaches to Casting Development and Procurement

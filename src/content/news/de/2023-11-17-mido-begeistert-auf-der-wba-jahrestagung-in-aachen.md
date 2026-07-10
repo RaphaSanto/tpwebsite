@@ -6,6 +6,7 @@ slug: "mido-begeistert-auf-der-wba-jahrestagung-in-aachen"
 wp_id: 5505
 trid: 9521
 translation: "2023-11-17-mido-impresses-at-the-wba-annual-conference-in-aachen.md"
+image: "/assets/uploads/2023/11/Newsmeldung_WBA_01.jpg"
 ---
 
 Ende November, das Jahr scheint schon fast vorbei, doch wie gewohnt wartet noch ein ganz besonderes Highlight auf die Werkzeug- und Formenbau Branche. Die Werkzeugbau Akademie Aachen unter der Leitung von Prof. Dr. Boos ruft zum Jahrestreffen. Neben anregenden Diskussionen Rund um die Zukunft des Werkzeug- und Formenbaus, insbesondere im Spannungsfeld des internationalen Wettbewerbs, stand auch der „Excelence in Production“ Preis „Werkzeugbau des Jahres“ auf dem Programm. Die feierliche Preisverleihung fand im geschichtsträchtigen Krönungssaal des Aachener Rathauses statt, wo schon vor Äonen Kaiser und Könige ihre Insignien entgegennahmen.

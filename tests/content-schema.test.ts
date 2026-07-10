@@ -20,6 +20,14 @@ describe('newsSchema', () => {
     const parsed = newsSchema.parse({ title: 'x', date: '2025-01-01', lang: 'de', slug: 's', translation: null });
     expect(parsed.translation).toBeNull();
   });
+
+  it('akzeptiert ein optionales image-Feld', () => {
+    const parsed = newsSchema.parse({
+      title: 'x', date: '2025-01-01', lang: 'de', slug: 's',
+      image: '/assets/uploads/2023/06/foo.jpg',
+    });
+    expect(parsed.image).toBe('/assets/uploads/2023/06/foo.jpg');
+  });
 });
 
 describe('productSchema', () => {

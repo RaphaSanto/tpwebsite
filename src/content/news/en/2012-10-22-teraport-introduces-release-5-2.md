@@ -6,6 +6,7 @@ slug: "teraport-introduces-release-5-2"
 wp_id: 3945
 trid: 3945
 translation: "2012-10-22-teraport-stellt-release-5-2-vor.md"
+image: "/assets/uploads/2012/10/News_015_Pathfinder_View.jpg"
 ---
 
 Last week Teraport introduced version 5.2. of its flexible software toolbox DMU-Toolkit. The lastest release offers the companies customers a broad range of new functions and enhancements. It starts with the new Pro.PathFinder and Pro.PathFreezer integrations into DMU.View Teraport's own 3D visualization viewport. The modules well known core functionality of mounting and demounting simulation and the calculation of swept volumes can be accessed way more comfortable through the new integration workbenches. Especially for Pro.PathFinder the integration comes with a new set of functions like a favourite planning direction and the easy definition of flexible part in a calculations assembly environment.

@@ -6,6 +6,7 @@ slug: "teraport-praesentiert-dmu-doc3d-auf-der-tekom-2010"
 wp_id: 3970
 trid: 3951
 translation: "2010-11-04-teraport-presents-dmu-doc3d-at-tcworld-2010.md"
+image: "/assets/uploads/2015/03/News_009_Tekom.jpg"
 ---
 
 Vom 03.11.2010 bis 05.11.2010 trafen sich auch in diesem Jahr in den Rhein Main Hallen in Wiesbaden sämtliche Experten zum Thema Technische Dokumentation auf der Tekom Jahrestagung. Mit dabei war auch Teraport. Als etablierter Anbieter von Softwarelösungen für DMU-Absicherungsuntersuchungen an virtuellen Prototypen präsentierte das Münchner Technologieunternehmen das neue Thema DMU.Doc3D auf der Tekom-Fachausstellung.

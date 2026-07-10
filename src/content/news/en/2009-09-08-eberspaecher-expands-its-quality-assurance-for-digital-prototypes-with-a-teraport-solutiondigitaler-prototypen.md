@@ -6,6 +6,7 @@ slug: "eberspaecher-expands-its-quality-assurance-for-digital-prototypes-with-a-
 wp_id: 3997
 trid: 3955
 translation: "2009-09-08-eberspaecher-erweitert-die-qualitaetssicherung-digitaler-prototypen.md"
+image: "/assets/uploads/2015/03/News_006_AGA.jpg"
 ---
 
 In J. Eberspächer GmbH & Co. KG, Teraport Engineering has acquired yet another client for its DMU applications. Eberspächer is now able to increase quality in its product development by employing the application for the creation of dynamic envelopes in the DMU.Pack module. This will, furthermore, also significantly optimize the company’s collaboration with automobile manufacturers who use the Eberspächer exhaust systems.

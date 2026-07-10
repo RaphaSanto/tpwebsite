@@ -6,6 +6,7 @@ slug: "veocast-6-9-neue-funktionen-zur-absicherung-von-gussbauteilen"
 wp_id: 4861
 trid: 4175
 translation: null
+image: "/assets/uploads/2018/12/Overview.jpg"
 ---
 
 [![3D-Übersichtsfenster](/assets/uploads/2018/12/Overview.jpg)](/assets/uploads/2018/12/Overview.jpg) 3D-Übersichtsfenster

@@ -6,6 +6,7 @@ slug: "forschung-im-rahmen-des-zentralen-innovationsprogramms-mittelstand"
 wp_id: 4563
 trid: 4147
 translation: "2015-05-29-researches-under-the-central-innovation-programme-for-smes-zim.md"
+image: "/assets/uploads/2015/06/News_019_Zim.jpg"
 ---
 
 Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein bundesweites, technologie- und branchenoffenes Förderprogramm des Bundesministeriums für Wirtschaft und Energie. Die Teraport GmbH beschäftigt sich in dessen Rahmen seit 2014 mit der Umsetzung eines innovativen Entwicklungsprojektes.

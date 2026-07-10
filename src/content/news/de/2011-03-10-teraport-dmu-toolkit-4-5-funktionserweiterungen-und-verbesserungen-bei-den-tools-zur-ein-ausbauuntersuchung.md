@@ -6,6 +6,7 @@ slug: "teraport-dmu-toolkit-4-5-funktionserweiterungen-und-verbesserungen-bei-de
 wp_id: 3965
 trid: 3950
 translation: "2011-03-10-teraport-dmu-toolkit-4-5-extended-and-optimized-functions-of-mounting-simulation-tools.md"
+image: "/assets/uploads/2009/01/News_000_default.jpg"
 ---
 
 Das aktuelle DMU-Toolkit Release 4.5 enthält zahlreiche Neuerungen und Weiterentwicklungen. Diese machen das Arbeiten mit den Tools des Teraport Softwarebaukastens noch effizienter und flexibler. Unsere Software Spezialisten legten damit den Grundstein für weitere Innovationen, die in der Zukunft die Leistungspalette erweitern und die führende Marktstellung bestätigen sollen. Ein besonderes Augenmerk lag diesmal auf Funktionserweiterungen und -verbesserungen der Tools zur automatischen Ein- und Ausbauuntersuchung (DMU.Planner und DMU.Motion). Herr Raphael Heilig, Geschäftsführer der Teraport GmbH, meint zum Release: “Mit dem Release 4.5 haben wir einen weiteren Meilenstein in Sachen Zukunftsfähigkeit gesetzt. Wir bieten damit auf dem Markt, bei maximaler Flexibilität und Funktionsvielfalt, die qualitativ hochwertigsten Softwarelösungen im Bereich DMU an“.

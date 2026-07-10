@@ -6,6 +6,7 @@ slug: "revolutionary-tool-cost-calculation-software-mido-amazes-visitors-at-form
 wp_id: 5499
 trid: 9519
 translation: "2023-11-11-revolutionaere-werkzeugkostenkalkulation-mido-begeistert-besucher-der-formnext-2023.md"
+image: "/assets/uploads/2023/11/Newsmeldung_Formnext_01.jpg"
 ---
 
 At the heart of the Formnext 2023 in Frankfurt, Teraport captivated attendees with the presentation of 'mido', a groundbreaking tool cost calculation software. This next-generation solution is set to transform the manufacturing industry by providing unparalleled cost transparency and efficiency in mold design.

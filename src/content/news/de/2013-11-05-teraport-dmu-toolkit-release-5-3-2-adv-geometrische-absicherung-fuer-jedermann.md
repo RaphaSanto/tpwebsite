@@ -6,6 +6,7 @@ slug: "teraport-dmu-toolkit-release-5-3-2-adv-geometrische-absicherung-fuer-jede
 wp_id: 3936
 trid: 3944
 translation: "2013-11-05-teraport-dmu-toolkit-release-5-3-2-adv-geometric-quality-assurance-for-everyone.md"
+image: "/assets/uploads/2013/11/News_016_ADV.jpg"
 ---
 
 Komplexere Produkte, mehr Varianten, kürzere Innovationszyklen, in der virtuellen Produktentwicklung den Überblick zu bewahren wird zu einer immer größeren Herausforderung. Bei der geometrischen Integration, das heisst der Analyse aller Bauteile eines Produktes auf Stimmigkeit im Bezug auf die 3D-Geometrie, setzen OEMs der Automotive- sowie Luft- und Raumfahrtindustrie auf automatisierte regelbasierte Prozesse. Nur wenn alle möglichen Konfigurationen und Bauteilkombinationen direkt am PDM System mit einer intelligenten Software analysiert werden, kann sichergestellt werden, dass später in der Hardware alles zusammen passt. 
