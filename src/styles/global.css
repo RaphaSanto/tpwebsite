@@ -5,11 +5,15 @@
 @import '@fontsource/inter/800.css';
 
 :root {
-  --tp-blue: #2d6cb2;
-  --tp-blue-light: #a9c7e0;
-  --tp-gray: #8a9299;
-  --tp-ink: #12233a;
-  --tp-bg: #f5f7fa;
+  /* Farbschema B: viel Weiß/Grau/Schwarz, sparsames warmes Orange.
+     Hinweis: Variablennamen bewusst beibehalten (minimaler Diff zu Schema A auf main);
+     --tp-blue trägt hier die Akzentfarbe Orange. */
+  --tp-blue: #d97706;        /* Akzent (Buttons, Highlights) */
+  --tp-blue-light: #f0b269;  /* heller Akzent auf dunklen Flächen */
+  --tp-link: #b45309;        /* Textlinks: dunkleres Orange, AA-Kontrast auf Weiß */
+  --tp-gray: #71717a;
+  --tp-ink: #18181b;         /* Anthrazit statt Dunkelblau */
+  --tp-bg: #f4f4f5;          /* neutrales Hellgrau */
   --tp-white: #ffffff;
 
   --tp-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -26,7 +30,7 @@ body {
   line-height: 1.6;
 }
 img { max-width: 100%; height: auto; display: block; }
-a { color: var(--tp-blue); }
+a { color: var(--tp-link); }
 h1, h2, h3 { line-height: 1.15; color: var(--tp-ink); }
 .tp-container { max-width: var(--tp-maxw); margin-inline: auto; padding-inline: 1.25rem; }
 
