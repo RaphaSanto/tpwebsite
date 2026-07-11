@@ -5,15 +5,20 @@
 @import '@fontsource/inter/800.css';
 
 :root {
-  /* Farbschema B: viel Weiß/Grau/Schwarz, sparsames warmes Orange.
+  /* Farbschema C (aufbauend auf B): weißer Grund, Karten in Grau 100,
+     Graphite für Fließtext, Silver für gedämpfte Texte/Icons/Ränder,
+     warmes Orange bleibt sparsamer Akzent.
      Hinweis: Variablennamen bewusst beibehalten (minimaler Diff zu Schema A auf main);
      --tp-blue trägt hier die Akzentfarbe Orange. */
   --tp-blue: #d97706;        /* Akzent (Buttons, Highlights) */
   --tp-blue-light: #f0b269;  /* heller Akzent auf dunklen Flächen */
   --tp-link: #b45309;        /* Textlinks: dunkleres Orange, AA-Kontrast auf Weiß */
-  --tp-gray: #71717a;
-  --tp-ink: #18181b;         /* Anthrazit statt Dunkelblau */
-  --tp-bg: #f4f4f5;          /* neutrales Hellgrau */
+  --tp-body: #6a6a6b;        /* Graphite – Body & Sekundärtext */
+  --tp-gray: #9c9d9f;        /* Silver – gedämpfte Texte, Icons */
+  --tp-border: #9c9d9f;      /* Silver – Ränder */
+  --tp-card: #e2e2e2;        /* Grau 100 – Kartenflächen */
+  --tp-ink: #18181b;         /* Anthrazit – Überschriften, dunkle Flächen */
+  --tp-bg: #e2e2e2;          /* Panels (Nutzen-Leiste, Kontakt-Karte) */
   --tp-white: #ffffff;
 
   --tp-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -25,8 +30,8 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
   font-family: var(--tp-font);
-  color: var(--tp-ink);
-  background: #e0e0e2; /* Schema B: Seiten-Hintergrund abgedunkelt; Karten/Panels bleiben weiß */
+  color: var(--tp-body); /* Schema C: Fließtext in Graphite, Überschriften bleiben Anthrazit */
+  background: var(--tp-white); /* Schema C: weißer Seiten-Hintergrund */
   line-height: 1.6;
 }
 img { max-width: 100%; height: auto; display: block; }

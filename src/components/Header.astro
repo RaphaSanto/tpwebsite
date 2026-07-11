@@ -35,8 +35,8 @@ const p = (de: string, en: string) => (lang === 'en' ? en : de);
   /* Schema B: hellgrauer Header (#CCCCCC), dunkles Logo/dunkle Schrift, Orange sparsam */
   .site-header { background: #cccccc; border-bottom: 1px solid #b4b4b8; }
   .inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.6rem; flex-wrap: wrap; }
-  /* Logo einfarbig in der Farbe der Menü-Schrift (Anthrazit) */
-  .brand img { display: block; filter: brightness(0) opacity(0.92); }
+  /* Logo einfarbig in Graphite (#6A6A6B): Schwarz-Einfärbung + Opazität über #CCCCCC-Header */
+  .brand img { display: block; filter: brightness(0) opacity(0.48); }
   nav { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
   nav a { color: var(--tp-ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
   nav a:hover { color: var(--tp-link); }
