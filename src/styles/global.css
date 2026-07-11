@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-family: var(--tp-font);
   color: var(--tp-ink);
-  background: var(--tp-white);
+  background: #e0e0e2; /* Schema B: Seiten-Hintergrund abgedunkelt; Karten/Panels bleiben weiß */
   line-height: 1.6;
 }
 img { max-width: 100%; height: auto; display: block; }

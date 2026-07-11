@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import logo from '../assets/uploads/2015/02/TP_340_trans_white.png';
+import logo from '../assets/uploads/2015/02/TP_340_trans.png';
 import { t, type Lang } from '../i18n/ui.ts';
 interface Props { lang: Lang; altHref: string; }
 const { lang, altHref } = Astro.props;
@@ -32,22 +32,22 @@ const p = (de: string, en: string) => (lang === 'en' ? en : de);
   </div>
 </header>
 <style>
-  /* Schema B: dunkler Header mit weißem Logo, Orange nur als Akzent */
-  .site-header { background: var(--tp-ink); border-bottom: 1px solid #2c2c31; }
+  /* Schema B: hellgrauer Header (#CCCCCC), dunkles Logo/dunkle Schrift, Orange sparsam */
+  .site-header { background: #cccccc; border-bottom: 1px solid #b4b4b8; }
   .inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.6rem; flex-wrap: wrap; }
   .brand img { display: block; }
   nav { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
-  nav a { color: #f4f4f5; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
-  nav a:hover { color: var(--tp-blue-light); }
-  nav a.cta { background: var(--tp-blue); color: var(--tp-ink); padding: 0.45rem 0.9rem; border-radius: 6px; }
-  nav a.cta:hover { filter: brightness(1.08); color: var(--tp-ink); }
-  nav a.lang { border: 1px solid #52525b; color: #d4d4d8; padding: 0.3rem 0.55rem; border-radius: 6px; font-size: 0.85rem; }
+  nav a { color: var(--tp-ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+  nav a:hover { color: var(--tp-link); }
+  nav a.cta { background: #3f3f46; color: #f4f4f5; padding: 0.45rem 0.9rem; border-radius: 6px; }
+  nav a.cta:hover { filter: brightness(1.15); color: #ffffff; }
+  nav a.lang { border: 1px solid #8e8e93; color: #3f3f46; padding: 0.3rem 0.55rem; border-radius: 6px; font-size: 0.85rem; }
   .dropdown { position: relative; }
   .drop-trigger {
     background: none; border: 0; cursor: pointer;
-    font: inherit; font-weight: 600; font-size: 0.95rem; color: #f4f4f5; padding: 0;
+    font: inherit; font-weight: 600; font-size: 0.95rem; color: var(--tp-ink); padding: 0;
   }
-  .drop-trigger:hover { color: var(--tp-blue-light); }
+  .drop-trigger:hover { color: var(--tp-link); }
   .menu {
     display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
     background: var(--tp-white); border: 1px solid #e4e4e7; border-radius: 8px;
