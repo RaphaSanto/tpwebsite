@@ -1,0 +1,180 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const pillars = [
+  {
+    title: 'Werkzeugkonfiguration',
+    text: 'Sicher durch den Prozess: schnell und präzise bestimmen, welche Elemente eines Werkzeugs auf Basis der Geometrie der 3D-CAD-Datei erforderlich sind.',
+  },
+  {
+    title: 'Kaufteile',
+    text: 'Automatische Auswahl auf Basis vordefinierter Templates: welche Materialien und Kaufteile aus einer umfangreichen Bibliothek am besten zum Projekt passen.',
+  },
+  {
+    title: 'Fertigungsaufwand',
+    text: 'Berechnung des Fertigungsaufwands über anpassbare Konfigurationen je Werkzeugelement – kombiniert mit einer Datenbank von Maschinen und Fertigungsstandorten.',
+  },
+];
+
+const features = [
+  'Drei Werkzeugtechnologien: Spritzguss / Druckguss / Stanzen',
+  '3D-Layout von Werkzeugnest und Kavitäten inkl. CAD-Export',
+  'Algorithmus zur Bestimmung der Entformungsrichtung',
+  'Hinterschnitt-Erkennung und Definition des Schieberkonzepts',
+  'Intelligente Feature-Erkennung zusätzlicher Kostentreiber (Einsätze, Erodierbereiche)',
+  'Datenbank für Fertigungsstandorte, Stundensätze, Materialien und Kaufteile',
+  'Vordefinierte und kundenspezifische Werkzeug-Templates',
+  'Zentrale Bibliothek – anpassbar und erweiterbar',
+  'Umfassende Kostenaufschlüsselung nach Werkzeugelementen und Fertigungsprozessen',
+  'Export der Kalkulationen via JSON/XML oder kundenspezifische Reports',
+  'Kalkulationen in der eigenen Datenbank speichern und auswerten',
+];
+
+const nav = [
+  { id: 'ueberblick', label: 'Überblick' },
+  { id: 'saeulen', label: 'Drei Säulen' },
+  { id: 'funktionen', label: 'Funktionen' },
+  { id: 'fuer-wen', label: 'Für wen' },
+  { id: 'testen', label: 'Testen' },
+];
+---
+<SiteLayout
+  title="mido – Werkzeugkostenkalkulation | Teraport"
+  lang="de"
+  description="mido: Werkzeugkostenkalkulation aus 3D-CAD-Modellen – regelbasiert, visuell unterstützt, mit automatischer Kostentreiber-Erkennung."
+  altHref="/en/mido/"
+>
+  <section class="intro">
+    <div class="tp-container">
+      <p class="kicker">mido · Tool Cost Calculation</p>
+      <h1>the right price at your fingertips</h1>
+      <p class="sub">Werkzeugkostenkalkulation aus 3D-CAD-Modellen – schnell, transparent, nachvollziehbar.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://www.vxmido.com" rel="noopener">Kostenlose Testlizenz</a>
+        <a class="btn secondary" href="/de/kontakt/">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="subnav" aria-label="Abschnitte">
+    <div class="tp-container row">
+      {nav.map((n) => <a href={`#${n.id}`}>{n.label}</a>)}
+    </div>
+  </nav>
+
+  <section id="ueberblick" class="block reveal">
+    <div class="tp-container narrow">
+      <h2>Überblick</h2>
+      <p>Bei der modernen Produktentwicklung ist frühe Kostentransparenz oft der Unterschied zwischen Erfolg und Misserfolg. Ob Kunststoffspritzguss, Druckguss oder Blechstanzen: Die Kosten für Formen und Werkzeuge sind der wichtigste Kostenfaktor für den Endpreis eines Teils.</p>
+      <p>Mit <strong>mido</strong> wird die Werkzeugkostenkalkulation zu einer leicht zu bewältigenden Aufgabe: eine visuell unterstützte, regelbasierte Werkzeug- und Formenkonfiguration, kombiniert mit der automatischen Erkennung von Kostentreibern direkt auf dem 3D-CAD-Modell. So gelingen auch ohne jahrelange Kalkulationserfahrung aussagekräftige Kalkulationen in kurzer Zeit.</p>
+    </div>
+  </section>
+
+  <section id="saeulen" class="block band reveal">
+    <div class="tp-container">
+      <h2>Die drei Säulen</h2>
+      <p class="lead">mido bestimmt die drei entscheidenden Größen Ihres Werkzeugprojekts:</p>
+      <div class="cards">
+        {pillars.map((p, i) => (
+          <article class="card">
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <h3>{p.title}</h3>
+            <p>{p.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="funktionen" class="block reveal">
+    <div class="tp-container narrow">
+      <h2>Funktionen im Detail</h2>
+      <ul class="checklist">
+        {features.map((f) => <li>{f}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section id="fuer-wen" class="block band reveal">
+    <div class="tp-container narrow">
+      <h2>Für wen?</h2>
+      <p>Werkzeug- und Formenbauer, OEMs und Zulieferer in Kunststoffspritzguss, Druckguss und Stanztechnik – überall dort, wo Werkzeugkosten früh, schnell und belastbar bewertet werden müssen.</p>
+    </div>
+  </section>
+
+  <section id="testen" class="block cta reveal">
+    <div class="tp-container narrow center">
+      <h2>Experience it!</h2>
+      <p class="lead">Überzeugen Sie sich selbst – mit einer kostenlosen Testlizenz.</p>
+      <div class="actions center">
+        <a class="btn primary" href="https://www.vxmido.com" rel="noopener">Testlizenz anfordern → vxmido.com</a>
+        <a class="btn ghost" href="/de/kontakt/">oder direkt Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </section>
+</SiteLayout>
+
+<script>
+  const els = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver(
+    (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('visible')),
+    { threshold: 0.12 }
+  );
+  els.forEach((el) => io.observe(el));
+</script>
+
+<style is:global>
+  html { scroll-behavior: smooth; }
+</style>
+<style>
+  /* Intro (dunkle Fläche wie Hero) */
+  .intro { background: var(--tp-gray-900); color: var(--tp-gray-100); padding-block: 4rem 3rem; }
+  .kicker { color: var(--tp-gray-500); font-family: var(--tp-font-accent); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.8125rem; margin: 0 0 0.75rem; }
+  .intro h1 { color: var(--tp-gray-100); font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.1; margin: 0 0 0.75rem; }
+  .sub { color: var(--tp-gray-400); max-width: 50ch; margin: 0 0 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; }
+  .actions.center { justify-content: center; }
+  .btn { display: inline-flex; align-items: center; padding: 0.7rem 1.4rem; border-radius: 9px; border: 1px solid transparent; font-family: var(--tp-font-accent); font-weight: 600; font-size: 0.9375rem; text-decoration: none; }
+  .btn.primary { background: var(--tp-orange-400); color: var(--tp-gray-900); }
+  .btn.primary:hover { filter: brightness(1.06); color: var(--tp-gray-900); }
+  .btn.secondary { border-color: rgb(255 255 255 / 28%); color: var(--tp-gray-100); }
+  .btn.secondary:hover { border-color: rgb(255 255 255 / 55%); color: var(--tp-gray-100); }
+  .btn.ghost { color: var(--tp-orange-500); }
+
+  /* Abschnitts-Navigation (sticky) */
+  .subnav { position: sticky; top: 0; z-index: 30; background: var(--tp-gray-100); border-bottom: 1px solid var(--tp-gray-300); }
+  .subnav .row { display: flex; gap: 1.5rem; flex-wrap: wrap; padding-block: 0.6rem; }
+  .subnav a { color: var(--tp-gray-600); text-decoration: none; font-family: var(--tp-font-accent); font-weight: 600; font-size: 0.875rem; }
+  .subnav a:hover { color: var(--tp-orange-500); }
+
+  /* Abschnitte */
+  .block { padding-block: 3.5rem; scroll-margin-top: 4.5rem; }
+  .band { background: var(--tp-gray-200); }
+  .narrow { max-width: 46rem; }
+  .center { text-align: center; }
+  .lead { color: var(--tp-gray-600); font-size: 1.1rem; }
+  .block p { color: var(--tp-gray-600); }
+  .block h2 { margin-top: 0; }
+
+  /* Säulen-Karten */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+  .card { background: var(--tp-gray-0); border: 1px solid rgb(0 0 0 / 5%); border-radius: 14px; padding: 1.5rem; box-shadow: 0 1px 3px rgb(0 0 0 / 8%); }
+  .num { color: var(--tp-orange-400); font-family: var(--tp-font-accent); font-weight: 700; font-size: 0.9rem; }
+  .card h3 { margin: 0.35rem 0 0.5rem; font-family: var(--tp-font-accent); font-weight: 700; font-size: 1.15rem; }
+  .card p { margin: 0; }
+
+  /* Funktionsliste */
+  .checklist { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 0.5rem; }
+  .checklist li { padding-left: 1.6rem; position: relative; color: var(--tp-gray-600); }
+  .checklist li::before { content: '✓'; position: absolute; left: 0; color: var(--tp-orange-400); font-weight: 700; }
+
+  /* CTA-Abschnitt */
+  .cta { background: var(--tp-gray-900); }
+  .cta h2, .cta .lead { color: var(--tp-gray-100); }
+  .cta .lead { color: var(--tp-gray-400); }
+
+  /* Einblenden beim Scrollen */
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+</style>

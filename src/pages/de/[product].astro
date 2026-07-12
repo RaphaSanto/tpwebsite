@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 
 export async function getStaticPaths() {
-  const products = await getCollection('products', (e) => e.data.lang === 'de');
+  const products = await getCollection('products', (e) => e.data.lang === 'de' && e.data.slug !== 'mido');
   return products.map((entry) => ({ params: { product: entry.data.slug }, props: { entry } }));
 }
 
