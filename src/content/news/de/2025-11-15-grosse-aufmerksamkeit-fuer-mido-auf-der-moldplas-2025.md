@@ -6,6 +6,7 @@ slug: "grosse-aufmerksamkeit-fuer-mido-auf-der-moldplas-2025"
 wp_id: 11264
 trid: 9547
 translation: "2025-11-15-grosse-aufmerksamkeit-fuer-mido-auf-der-moldplas-2025.md"
+image: "/assets/uploads/Newsmeldung_Aalen_2025.jpg"
 ---
 
 Die Moldplas 2025, eine der wichtigsten Industriemessen Portugals, fand vom 13. bis 15. November in der Exposalão in Batalha (Leiria) statt und zog über 15.000 Fachbesucher an. Mit mehr als 250 ausstellenden Unternehmen und den Themenbereichen 3D Additive Expo, i4.0 Expo und Subcontratação bot das Event einen vielfältigen Überblick über aktuelle technologische Entwicklungen und digitale Produktionsansätze.

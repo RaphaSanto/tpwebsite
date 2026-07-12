@@ -6,7 +6,7 @@ slug: "euroguss-2024-verbesserte-funktionalitaet-von-veocast-laesst-aufhorchen"
 wp_id: 5487
 trid: 9517
 translation: "2024-01-18-euroguss-2024-verbesserte-funktionalitaet-von-veocast-laesst-aufhorchen.md"
-image: "/assets/uploads/2024/01/Newsmeldung_Euroguss_01.jpg"
+image: "/assets/uploads/Newsmeldung_Euroguss_01.jpg"
 ---
 
 The EUROGUSS 2024 trade fair in Nuremberg was a resounding success. One of the spotlights presented was veoCAST and its revolutionary enhancement to undercut detection functionality. This latest feature, which simplifies the drafting of slider concepts by adeptly detecting undercuts within undercuts and identifying optimal demoulding directions, was welcomed by experts visiting Teraport’s booth.

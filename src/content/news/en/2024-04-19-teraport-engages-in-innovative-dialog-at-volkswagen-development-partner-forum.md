@@ -6,7 +6,7 @@ slug: "teraport-engages-in-innovative-dialog-at-volkswagen-development-partner-f
 wp_id: 6769
 trid: 9528
 translation: "2024-04-19-teraport-im-innovativen-dialog-auf-dem-partnerforum-volkswagen-entwicklung.md"
-image: "/assets/uploads/2024/04/Nemwsmeldung_VW.jpg"
+image: "/assets/uploads/Nemwsmeldung_VW.jpg"
 ---
 
 The Volkswagen Development Partner Forum, which took place in Wolfsburg on 17 and 18 April 2024, was an important source of inspiration for Teraport. This esteemed event served as a vital communication platform between Volkswagen and its development partners, offering a unique opportunity to share insights on new standards, trends, and strategies in the automotive industry.

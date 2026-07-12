@@ -6,7 +6,7 @@ slug: "teraport-new-dmu-toolkit-release-3-3-and-acquisition-of-software-from-byt
 wp_id: 4019
 trid: 3960
 translation: "2009-01-29-teraport-neues-release-3-3-des-dmu-toolkit-und-erwerb-der-software-von-bytes-lights.md"
-image: "/assets/uploads/2009/01/News_000_default.jpg"
+image: "/assets/uploads/News_000_default.jpg"
 ---
 
 In the new DMU-Toolkit release 3.3, Teraport GmbH has further developed a number of the modules. Teraport’s clients stand to benefit directly from this development.

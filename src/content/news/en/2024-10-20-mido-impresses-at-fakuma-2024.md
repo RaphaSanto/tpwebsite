@@ -6,7 +6,7 @@ slug: "mido-impresses-at-fakuma-2024"
 wp_id: 7936
 trid: 9532
 translation: "2024-10-20-erfolgreicher-auftritt-von-mido-auf-der-fakuma-2024.md"
-image: "/assets/uploads/2025/10/Newsmeldung_Fakuma_2024_01.jpg"
+image: "/assets/uploads/Newsmeldung_Fakuma_2024_01.jpg"
 ---
 
 From October 15 to 19, 2024, Friedrichshafen once again became the hub of the international plastics processing industry. Teraport was proud to participate, shining a spotlight on “mido”, its revolutionary tool cost calculation software that sets new standards for efficiency, precision, and simplicity.

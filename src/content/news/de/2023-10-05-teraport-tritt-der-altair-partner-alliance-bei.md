@@ -6,7 +6,7 @@ slug: "teraport-tritt-der-altair-partner-alliance-bei"
 wp_id: 5469
 trid: 9509
 translation: "2023-10-05-teraport-tritt-der-altair-partner-alliance-bei.md"
-image: "/assets/uploads/2023/10/Newsmeldung_Altair_01.jpg"
+image: "/assets/uploads/Newsmeldung_Altair_01.jpg"
 ---
 
 Teraport ist das neueste Mitglied, der **Altair Partner Alliance** und wird dort seine Software **veoCAST** anbieten. veoCAST ist eine Software, die entwickelt wurde, um CAD-Teile auf Konformität mit den Anforderungen des Gießprozesses zu analysieren.

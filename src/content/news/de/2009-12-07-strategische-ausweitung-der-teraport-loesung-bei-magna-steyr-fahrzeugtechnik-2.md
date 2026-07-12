@@ -6,7 +6,7 @@ slug: "strategische-ausweitung-der-teraport-loesung-bei-magna-steyr-fahrzeugtech
 wp_id: 3990
 trid: 3954
 translation: "2009-12-07-strategic-expansion-of-the-teraport-solution-at-magna-steyr-fahrzeugtechnik.md"
-image: "/assets/uploads/2009/01/News_000_default.jpg"
+image: "/assets/uploads/News_000_default.jpg"
 ---
 
 Die Teraport-Lösung für den automatisierten Geometrieprüfungsprozess wird, nach Ausweitung auf mehrere Fahrzeugprojekte, nun strategisch als Qualitätssicherung bei der MAGNA STEYR Fahrzeugtechnik AG & Co. KG eingesetzt. Mit dieser Lösung werden die einzelnen Bauteile im digitalen Prototypen auf Kollisionen und Abstände hin untersucht. Ausschlaggebend für die Auswahl der Software-Lösung von Teraport war die Fähigkeit zur Integration in heterogene Systemlandschaften (PDM- und CAD-Systeme).

@@ -6,7 +6,7 @@ slug: "teraport-is-intensifying-its-collaboration-with-the-university-of-karlsru
 wp_id: 4011
 trid: 3958
 translation: "2009-03-27-teraport-intensiviert-zusammenarbeit-mit-universitaet-karlsruhe-th.md"
-image: "/assets/uploads/2009/01/News_000_default.jpg"
+image: "/assets/uploads/News_000_default.jpg"
 ---
 
 Teraport GmbH and the Institute for Information Management in Engineering at the Karlsruhe Institute of Technology (KIT) have agreed to collaborate in the field of digital mock-up (DMU). By using their respective know-how, their joint objective is to shape and promote future developments in the virtual product development market segment, the main focus being on virtual engineering (VE) and Poduct Lifecycle Management (PLM).

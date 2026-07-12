@@ -6,7 +6,7 @@ slug: "special-technology-gives-a-competitive-edge"
 wp_id: 3959
 trid: 3948
 translation: "2011-05-16-expertentechnologie-als-wettbewerbsvorteil.md"
-image: "/assets/uploads/2011/05/News_012_Expertentechnologie.jpg"
+image: "/assets/uploads/News_012_Expertentechnologie.jpg"
 ---
 
 Teraport GmbH offers its customers an unique combination of engineering-expertise and software-solutions regarding digital prototypes. That way Teraport's engineers whenever they work in projects distinguish by their ability to optimize processes and methods by applying Teraport's own software toolbox (DMU-Toolkit). The FES GmbH, Teraport's latest customer is now making use of this proven concept. The engieering service provider offers added value along the complete product-lifecycle, especially topics like concept and package-development, conception of body-in-white and electrical-systems, chassis development, quality control and technical documentation are in their focus.

@@ -6,7 +6,7 @@ slug: "mido-impresses-at-the-wba-annual-conference-in-aachen"
 wp_id: 5507
 trid: 9521
 translation: "2023-11-17-mido-begeistert-auf-der-wba-jahrestagung-in-aachen.md"
-image: "/assets/uploads/2023/11/Newsmeldung_WBA_01.jpg"
+image: "/assets/uploads/Newsmeldung_WBA_01.jpg"
 ---
 
 At the end of November, the year seems almost over, but as usual, a very special highlight awaits the tool and mold making industry. The Toolmaking Academy Aachen, under the direction of Prof. Dr. Boos, is calling for the annual meeting. In addition to stimulating discussions about the future of tool and mold making, especially in the field of international competition, the "Excelence in Production" award "Toolmaking of the Year" was also on the agenda. The award ceremony took place in the historic Coronation Hall of Aachen City Hall, where emperors and kings received their insignia eons ago.

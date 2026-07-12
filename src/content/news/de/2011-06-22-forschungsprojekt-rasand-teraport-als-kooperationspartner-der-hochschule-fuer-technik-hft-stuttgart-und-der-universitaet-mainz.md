@@ -6,7 +6,7 @@ slug: "forschungsprojekt-rasand-teraport-als-kooperationspartner-der-hochschule-
 wp_id: 3952
 trid: 3947
 translation: "2011-06-22-research-project-rasand-teraport-gmbh-as-a-cooperation-partner-of-the-university-of-applied-sciences-hft-stuttgart-and-university-of-mainz.md"
-image: "/assets/uploads/2011/06/News_013_Rasand.jpg"
+image: "/assets/uploads/News_013_Rasand.jpg"
 ---
 
 Die komplexen, technisch anspruchsvollen Anforderungen an Software Lösungen im Bereich des Digital Mockups erfordern eine stete Auseinandersetzung mit neuen Technologien und Förderung von Innovationen. Die Teraport GmbH ist deshalb immer bedacht in Forschung zu investieren, um ihren Kunden Algorithmen auf dem neuesten Stand der Technik anbieten zu können.

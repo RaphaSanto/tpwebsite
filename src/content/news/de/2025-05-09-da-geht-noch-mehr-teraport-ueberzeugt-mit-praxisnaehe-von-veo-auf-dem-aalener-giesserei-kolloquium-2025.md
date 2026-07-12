@@ -6,7 +6,7 @@ slug: "da-geht-noch-mehr-teraport-ueberzeugt-mit-praxisnaehe-von-veo-auf-dem-aal
 wp_id: 8620
 trid: 9538
 translation: "2025-05-09-pushing-the-limits-teraport-demonstrates-hands-on-innovation-with-veo.md"
-image: "/assets/uploads/2025/05/Newsmeldung_Aalen_2025.jpg"
+image: "/assets/uploads/Newsmeldung_Aalen_2025.jpg"
 ---
 
 Innovative Ansätze für Gussteilentwicklung und -beschaffung:

@@ -6,7 +6,7 @@ slug: "euroguss-2024-verbesserte-funktionalitaet-von-veocast-laesst-aufhorchen"
 wp_id: 5490
 trid: 9517
 translation: "2024-01-18-euroguss-2024-verbesserte-funktionalitaet-von-veocast-laesst-aufhorchen.md"
-image: "/assets/uploads/2024/01/Newsmeldung_Euroguss_01.jpg"
+image: "/assets/uploads/Newsmeldung_Euroguss_01.jpg"
 ---
 
 Die Fachmesse EUROGUSS 2024 in Nürnberg war ein voller Erfolg. Eines der Highlights war veoCAST und seine revolutionäre Erweiterung der Hinterschnitt-Erkennung. Das neue Feature, das die Erstellung von Schieberkonzepten vereinfacht, indem es Hinterschneidungen innerhalb von Hinterschnitten erkennt und die optimale Entformungsrichtung ermittelt, wurde von den Fachleuten auf dem Teraport-Stand begrüßt.

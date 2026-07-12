@@ -6,7 +6,7 @@ slug: "mido-shines-at-the-fakuma"
 wp_id: 5484
 trid: 9515
 translation: "2023-10-21-mido-mischt-die-fakuma-auf.md"
-image: "/assets/uploads/2024/01/Newsmeldung_Fakuma_01.jpg"
+image: "/assets/uploads/Newsmeldung_Fakuma_01.jpg"
 ---
 
 For the 28th time, Fakuma took place in Friedrichshafen from October 17-21, 2023. This time, visitors from all over the world were also able to find out about "mido", the revolutionary solution for feature-based tool cost calculation. The Munich-based company Teraport presented the latest addition to its product family to an interested trade audience. "We are really thrilled with how good the feedback on mido has been. From tool manufacturers to Tier 1 suppliers and OEMs, interested parties confirm that our software really does address the issue of tool cost calculation in a way that has never been seen before," says Teraport CEO Raphael Heilig.

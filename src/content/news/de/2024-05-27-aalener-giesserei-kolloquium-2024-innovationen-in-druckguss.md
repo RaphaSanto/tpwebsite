@@ -6,7 +6,7 @@ slug: "aalener-giesserei-kolloquium-2024-innovationen-in-druckguss"
 wp_id: 6764
 trid: 9527
 translation: "2024-05-27-6877.md"
-image: "/assets/uploads/2024/05/Newsmeldung_Aalen_02.png"
+image: "/assets/uploads/Newsmeldung_Aalen_02.png"
 ---
 
 Das Aalener Gießerei Kolloquium 2024 war ein wichtiger Treffpunkt für Experten und Innovatoren im Druckguss. Die Veranstaltung in Aalen präsentierte die neuesten Technologien und Methoden, im Bereich der Gießereiindustrie.

@@ -6,7 +6,7 @@ slug: "euroguss-mexico-2021-virtual-exchange-with-experts"
 wp_id: 5198
 trid: 9428
 translation: "2021-06-21-euroguss-mexico-2021-virtueller-austausch-mit-experten.md"
-image: "/assets/uploads/2021/06/2020-mexiko-virtuel-weeks.jpg"
+image: "/assets/uploads/2020-mexiko-virtuel-weeks.jpg"
 ---
 
 Opulent stands, give-aways and trade fair parties - you looked in vain for all that at Euroguss Mexico 2021. But it did take place. From 4 to 18 May, in purely virtual form. Exhibitors and visitors were able to exchange information and network with each other on a specially designed platform. Roland Weigert, Vice Minister in the Bavarian Ministry of Economic Affairs, Regional Development and Energy, emphasised the importance of Mexico for the Bavarian economy in his welcoming speech: "Mexico is our most important trading partner in Latin America and an important production location for the Bavarian automotive industry. Two of our largest OEMs, Audi and BMW are located here." Teraport GmbH presented its veoCAST software at Euroguss Mexico, for the analytical validation of 3D CAD parts regarding requirements from the foundry production process.

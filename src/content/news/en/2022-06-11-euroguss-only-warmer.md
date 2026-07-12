@@ -6,7 +6,7 @@ slug: "euroguss-only-warmer"
 wp_id: 5345
 trid: 9451
 translation: "2022-06-11-die-euroguss-wie-immer-nur-waermer.md"
-image: "/assets/uploads/2023/05/IMG_3772.jpg"
+image: "/assets/uploads/IMG_3772.jpg"
 ---
 
 Four full halls, enthusiastic visitors and satisfied exhibitors - that was EUROGUSS 2022, which took place in Nuremberg from June 8th to 10th. Due to the pandemic, a total of 638 exhibitors from 34 countries presented themselves to around 10,000 visitors in unusually warm temperatures and not in winter as usual. Thus, the always spectacular exhibition party with show band became an open air event this time.

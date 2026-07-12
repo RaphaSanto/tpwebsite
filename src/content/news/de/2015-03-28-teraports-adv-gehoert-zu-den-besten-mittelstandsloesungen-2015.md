@@ -6,7 +6,7 @@ slug: "teraports-adv-gehoert-zu-den-besten-mittelstandsloesungen-2015"
 wp_id: 4553
 trid: 4146
 translation: "2015-03-28-teraports-adv-is-among-the-best-medium-sized-enterprise-solutions-2015.md"
-image: "/assets/uploads/2015/03/News_008_BestOf2015.jpg"
+image: "/assets/uploads/News_008_BestOf2015.jpg"
 ---
 
 ADV - Automated Design Verification - das ist Teraport's Software Suite für die Absicherung virtueller Produkte auf geometrische Stimmigkeit. Das Besondere: Ein komplexer Prozess, der bisher weitestgehend als individuelle Lösung bei großen OEM's zum Einsatz kam, steht mit ADV als einfach auszurollende "Out-of-the-Box" Lösung zur Verfügung. Dieses Konzept hat jetzt die Initiative Mittelstand honoriert. Eine über 100 köpfige Jury aus Experten wählte ADV in der Kategorie Industrie & Logistik in die Gruppe der besten IT-Lösungen für den Mittelstand 2015.

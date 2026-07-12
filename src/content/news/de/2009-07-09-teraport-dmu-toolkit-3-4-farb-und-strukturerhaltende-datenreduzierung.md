@@ -6,7 +6,7 @@ slug: "teraport-dmu-toolkit-3-4-farb-und-strukturerhaltende-datenreduzierung"
 wp_id: 3999
 trid: 3956
 translation: "2009-07-09-teraport-dmu-toolkit-3-4-color-and-structure-preserving-data-reduction.md"
-image: "/assets/uploads/2015/03/News_005_Datareducer.jpg"
+image: "/assets/uploads/News_005_Datareducer.jpg"
 ---
 
 Das aktuelle Release 3.4 des Teraport DMU-Toolkits enthält zahlreiche Weiterentwicklungen, wie z. B. die farb- und strukturerhaltende Datenreduzierung oder das Redesign des automatisierten Geometrieprüfungsprozesses. Die Neuerungen sind wie gewohnt in enger Zusammenarbeit mit den Kunden entwickelt worden und ab sofort verfügbar. “Das ist ein weiterer und wichtiger Meilenstein für die nachhaltige Etablierung unseres modularen Softwarebaukastens im digitalen Prototypenbau“, fasst Hermann Gaigl, Geschäftsführer der Teraport GmbH, die Neuerungen des aktuellen Releases zusammen.

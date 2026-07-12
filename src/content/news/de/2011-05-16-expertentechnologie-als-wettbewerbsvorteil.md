@@ -6,7 +6,7 @@ slug: "expertentechnologie-als-wettbewerbsvorteil"
 wp_id: 3956
 trid: 3948
 translation: "2011-05-16-special-technology-gives-a-competitive-edge.md"
-image: "/assets/uploads/2011/05/News_012_Expertentechnologie.jpg"
+image: "/assets/uploads/News_012_Expertentechnologie.jpg"
 ---
 
 Die Teraport GmbH bietet Ihren Kunden eine einzigartige Kombination aus Engineering-Experten und Software-Lösungen rund um den digitalen Prototypen. So differenzieren sich die Teraport Ingenieure im Projekteinsatz immer auch durch die Möglichkeit Prozesse und Abläufe durch die Nutzung der Softwaremodule aus dem hauseigenen Softwarebaukasten (DMU-Toolkit) zu optimieren. Dies macht sich nun auch die FES GmbH als neuer Teraport Kunde zu Nutze. Der Entwicklungsdienstleister bietet Mehrwert entlang des gesamten Produkt Lifecycles, insbesondere stehen Themen wie Konzept- und Gesamtfahrzeugentwicklung, Entwicklung Karosserie und Bordnetz, Entwicklung Fahrwerk, Versuchsbau, Versuch und Technische Dokumentation im Vordergrund.

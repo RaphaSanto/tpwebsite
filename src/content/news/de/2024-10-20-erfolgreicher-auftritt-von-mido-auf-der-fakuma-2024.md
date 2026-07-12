@@ -6,7 +6,7 @@ slug: "erfolgreicher-auftritt-von-mido-auf-der-fakuma-2024"
 wp_id: 7932
 trid: 9532
 translation: "2024-10-20-mido-impresses-at-fakuma-2024.md"
-image: "/assets/uploads/2025/10/Newsmeldung_Fakuma_2024_01.jpg"
+image: "/assets/uploads/Newsmeldung_Fakuma_2024_01.jpg"
 ---
 
 Vom 15. bis 19. Oktober 2024 war Friedrichshafen erneut Treffpunkt für die internationale Kunststoffverarbeitungsbranche. Im Fokus des Messeauftritts von Teraport – „mido“ – die bahnbrechende Lösung für werkzeugbasierte Kostenkalkulation, die Herstellern hilft, Prozesse effizienter, präziser und einfacher zu gestalten.
