@@ -6,11 +6,13 @@ const items = [t(lang, 'benefits.1'), t(lang, 'benefits.2'), t(lang, 'benefits.3
 ---
 <section class="benefits">
   <div class="tp-container row">
-    {items.map((b) => <span>✓ {b}</span>)}
+    {items.map((b) => <span class="item"><span class="check">✓</span> {b}</span>)}
   </div>
 </section>
 <style>
-  .benefits { background: var(--tp-bg); padding-block: 1.25rem; }
-  .row { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; color: var(--tp-ink); font-weight: 600; }
-  span { white-space: nowrap; }
+  /* Schema D: weiße Leiste, orange Haken */
+  .benefits { background: var(--tp-white); border-block: 1px solid #e4e4e7; padding-block: 1.1rem; }
+  .row { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; font-weight: 600; }
+  .item { white-space: nowrap; color: var(--tp-ink); }
+  .check { color: var(--tp-blue); font-weight: 700; }
 </style>

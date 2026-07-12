@@ -24,14 +24,20 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
     title={t(lang, 'home.hero.title')}
     ctaLabel={t(lang, 'home.hero.cta')}
     ctaHref="/en/contact/"
+    subline="Tool costs, feasibility and 3D analysis – automated, traceable and straight from the CAD model."
+    cta2Label="View products"
+    cta2Href="#products"
+    imageLabel="3D CAD / product screenshot"
   />
 
-  <section class="tp-container section">
-    <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
-    <div class="grid-2">
-      {products.map((p) => (
-        <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/en/${p.data.slug}/`} more={t(lang, 'product.more')} />
-      ))}
+  <section id="products" class="band">
+    <div class="tp-container section">
+      <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
+      <div class="grid-2">
+        {products.map((p) => (
+          <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/en/${p.data.slug}/`} more={t(lang, 'product.more')} />
+        ))}
+      </div>
     </div>
   </section>
 
@@ -50,6 +56,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
   </section>
 </SiteLayout>
 <style>
+  .band { background: var(--tp-card); }
   .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
   .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
   .row-between { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
