@@ -3,14 +3,14 @@ title: "veo"
 lang: de
 slug: "veo"
 order: 2
-teaser: "Design-Validierung für Gussbauteile – Fertigungsgerechtheit in Sekunden prüfen, direkt am 3D-CAD-Modell."
+teaser: "Design-Validierung für Druckuss- und Spritzgussbauteile – Fertigungsgerechtheit in Sekunden prüfen, direkt am 3D-CAD-Modell."
 ---
 
 ## Design for Manufacturing
 
-Konstrukteure stehen heute vor der Herausforderung, funktionale Anforderungen und die Bedarfe der Fertigungsprozesse gleichzeitig zu erfüllen. Für Gussbauteile bieten physische Prototypen oder CAE-Simulationen Unterstützung – oft muss es aber schneller gehen.
+Konstrukteure stehen heute vor der Herausforderung, funktionale Anforderungen und die Bedarfe der Fertigungsprozesse gleichzeitig zu erfüllen. Für Druckguss- und Spritzgussbauteile bieten physische Prototypen oder CAE-Simulationen Unterstützung – oft muss es aber schneller gehen.
 
-Hier setzt **veo** (vormals veoCAST) an: ein Werkzeug zur schnellen, konstruktionsnahen Absicherung von Bauteilen hinsichtlich der Anforderungen von Gussprozessen. Einfache Bedienung und kurze Rechenzeiten sorgen dafür, dass Problemstellen früher erkannt und Verbesserungen schneller und kostengünstiger umgesetzt werden – *detailed part insights, only one click away*.
+Hier setzt **veo** an: ein Werkzeug zur schnellen, konstruktionsnahen Absicherung von Bauteilen hinsichtlich der Anforderungen von Fertigungsprozessen. Einfache Bedienung und kurze Rechenzeiten sorgen dafür, dass Problemstellen früher erkannt und Verbesserungen schneller und kostengünstiger umgesetzt werden – *detailed part insights, only one click away*.
 
 Neben der Konstruktion wird veo inzwischen auch im Einkaufsprozess von OEMs und Zulieferern sowie im technischen Vertrieb von Gießereien (RFQ-Prozess) eingesetzt.
 
@@ -28,10 +28,6 @@ Neben der Konstruktion wird veo inzwischen auch im Einkaufsprozess von OEMs und 
 - Anpassbare Reports (inkl. Firmenlogo) und Exchange-Datei zum einfachen Teilen kompletter Analyseergebnisse
 - Schnittstellen zu allen gängigen CAD-Systemen (CATIA, Creo, SolidWorks, NX, Parasolid, STEP, JT)
 
-## Aktuelle Version 26.1 (01/2026)
-
-- **Neue Wandstärke:** leistungsfähige, schnelle Berechnung (wenige Sekunden!) der mittleren Wandstärke, Erstellung eines Wandstärke-Histogramms
-- **Performanceverbesserung:** dynamische Speichernutzung für bessere Performance auf High-End-Hardware
 
 ## Für wen?
 
