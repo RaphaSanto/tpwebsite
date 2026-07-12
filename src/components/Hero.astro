@@ -1,18 +1,61 @@
 ---
-interface Props { kicker: string; title: string; ctaLabel: string; ctaHref: string; }
-const { kicker, title, ctaLabel, ctaHref } = Astro.props;
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+interface Props {
+  kicker: string; title: string; ctaLabel: string; ctaHref: string;
+  subline?: string; cta2Label?: string; cta2Href?: string;
+  image?: ImageMetadata; imageAlt?: string;
+}
+const {
+  kicker, title, ctaLabel, ctaHref,
+  subline = '', cta2Label = '', cta2Href = '#',
+  image, imageAlt = '',
+} = Astro.props;
 ---
 <section class="hero">
-  <div class="tp-container">
-    <p class="kicker">{kicker}</p>
-    <h1>{title}</h1>
-    <a class="cta" href={ctaHref}>{ctaLabel}</a>
+  <div class="tp-container grid">
+    <div>
+      <p class="kicker">{kicker}</p>
+      <h1>{title}</h1>
+      {subline && <p class="subline">{subline}</p>}
+      <div class="actions">
+        <a class="btn primary" href={ctaHref}>{ctaLabel}</a>
+        {cta2Label && <a class="btn secondary" href={cta2Href}>{cta2Label}</a>}
+      </div>
+    </div>
+    {image && (
+      <div class="media">
+        <div class="frame">
+          <Image src={image} alt={imageAlt} width={500} height={400} />
+        </div>
+      </div>
+    )}
   </div>
 </section>
 <style>
-  .hero { background: linear-gradient(135deg, var(--tp-blue) 0%, #1d4e86 100%); color: var(--tp-white); padding-block: 4.5rem; }
-  .kicker { color: var(--tp-blue-light); letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.85rem; font-weight: 700; margin: 0 0 0.75rem; }
-  h1 { color: var(--tp-white); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin: 0 0 1.5rem; max-width: 34ch; }
-  .cta { display: inline-block; background: var(--tp-white); color: var(--tp-blue); font-weight: 700; padding: 0.7rem 1.4rem; border-radius: 8px; text-decoration: none; }
-  .cta:hover { filter: brightness(0.95); }
+  /* Schema D: dunkler Hero mit Subline, zwei gleich dimensionierten CTAs und Bild */
+  .hero { background: linear-gradient(135deg, #18181b 0%, #303036 100%); color: var(--tp-white); padding-block: 4.5rem; }
+  .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; }
+  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
+  .kicker { color: #d4d4d8; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.85rem; font-weight: 700; margin: 0 0 0.75rem; }
+  h1 { color: var(--tp-white); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin: 0 0 1rem; max-width: 24ch; }
+  .subline { color: #d4d4d8; max-width: 46ch; margin: 0 0 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: stretch; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 0.7rem 1.4rem; border-radius: 8px; border: 1px solid transparent;
+    font-weight: 700; font-size: 1rem; line-height: 1.2; text-decoration: none;
+  }
+  .btn.primary { background: var(--tp-blue); color: #18181b; }
+  .btn.primary:hover { filter: brightness(1.08); }
+  .btn.secondary { background: transparent; border-color: #9c9d9f; color: var(--tp-white); }
+  .btn.secondary:hover { border-color: #d4d4d8; }
+  .media { display: grid; place-items: center; }
+  /* Passepartout: der Rahmen beschneidet jede Grafik (auch quadratische) auf 5:4 mit runden Ecken */
+  .frame {
+    width: min(100%, 500px); aspect-ratio: 5 / 4;
+    border-radius: 12px; overflow: hidden;
+    border: 1px solid #52525b; background: #3a3a40;
+  }
+  .frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
 </style>
