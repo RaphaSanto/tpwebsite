@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import logo from '../assets/uploads/2015/02/TP_340_trans.png';
+import logo from '../assets/brand/teraport-logo.png';
 import { t, type Lang } from '../i18n/ui.ts';
 interface Props { lang: Lang; altHref: string; }
 const { lang, altHref } = Astro.props;
@@ -35,8 +35,8 @@ const p = (de: string, en: string) => (lang === 'en' ? en : de);
   /* Schema D: weißer Header, Logo ~120% transparent, dunkle Schrift */
   .site-header { background: var(--tp-white); border-bottom: 1px solid #e4e4e7; }
   .inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.6rem; flex-wrap: wrap; }
-  /* Logo einfarbig dunkel (Menü-Schriftfarbe), transparent auf Weiß */
-  .brand img { display: block; filter: brightness(0) opacity(0.9); }
+  /* Marken-Logo (einfarbig grau, transparent) – Original-Farben der Datei */
+  .brand img { display: block; }
   nav { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
   nav a { color: var(--tp-ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
   nav a:hover { color: var(--tp-link); }
