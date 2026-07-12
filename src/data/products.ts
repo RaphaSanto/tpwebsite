@@ -11,7 +11,7 @@ export interface ProductTileData {
 export const products: Record<Lang, ProductTileData[]> = {
   "de": [
     {
-      "title": "MIDO",
+      "title": "mido",
       "teaser": "Werkzeugkostenkalkulation aus 3D-CAD-Modellen – schnell, transparent, nachvollziehbar.",
       "slug": "mido",
       "order": 1

@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
       Kellerstr. 29<br />
       81667 München<br />
       <a href="tel:+4989651086700">+49 (0)89 651086 700</a><br />
-      <a href="mailto:info@teraport.de">info@teraport.de</a>
+      <a class="email" data-u="info" data-d="teraport.de">info(at)teraport.de</a>
     </address>
     <nav aria-label="Rechtliches">
       <a href={p('/de/impressum/', '/en/legal-notice/')}>{t(lang, 'footer.legal')}</a>
@@ -27,6 +27,13 @@ const year = new Date().getFullYear();
   </div>
   <div class="tp-container copy">© {year} Teraport GmbH</div>
 </footer>
+<script is:inline>
+  // E-Mail-Links erst im Browser zusammensetzen (Spam-Crawler-Schutz)
+  document.querySelectorAll('a.email[data-u]').forEach(function (a) {
+    var addr = a.dataset.u + '@' + a.dataset.d;
+    a.href = 'mailto:' + addr + (a.dataset.s ? '?subject=' + a.dataset.s : '');
+  });
+</script>
 <style>
   /* Brandbook v2: Footer gray-900, Text gray-400, Copyright gray-600 */
   .site-footer { background: var(--tp-gray-900); color: var(--tp-gray-400); margin-top: 4rem; padding-block: 2.5rem 1.25rem; font-size: 0.95rem; }
