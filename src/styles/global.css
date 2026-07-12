@@ -1,7 +1,6 @@
-/* Lokale Schriften (DSGVO – kein CDN) · Brandbook v2:
-   Righteous = Überschriften (Versalien), Space Grotesk = Kicker/Nav-Akzente/Buttons,
-   Inter Tight = Fließtext */
-@import '@fontsource/righteous/400.css';
+/* Lokale Schriften (DSGVO – kein CDN) · Brandbook v3:
+   Space Grotesk = Überschriften (H1 600, H2 700)/Kicker/Buttons, Inter Tight = Fließtext.
+   Righteous ist kein Website-Font mehr (nur mido-Schriftzug, separates mido-Brandbook). */
 @import '@fontsource/space-grotesk/500.css';
 @import '@fontsource/space-grotesk/600.css';
 @import '@fontsource/space-grotesk/700.css';
@@ -37,7 +36,6 @@
   --tp-white: var(--tp-gray-0);
 
   --tp-font: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --tp-font-display: 'Righteous', var(--tp-font);
   --tp-font-accent: 'Space Grotesk', var(--tp-font);
   --tp-maxw: 1120px;
 }
@@ -59,9 +57,9 @@ h1, h2 {
   line-height: 1.15;
   color: var(--tp-ink);
 }
-/* H1: Space Grotesk (wie Footer-Tagline), Groß-/Kleinschreibung wie getippt; nur H2 bleibt Righteous in Versalien */
+/* Brandbook v3: H1 Space Grotesk 600, H2 Space Grotesk 700 – Groß-/Kleinschreibung wie getippt */
 h1 { font-family: var(--tp-font-accent); font-weight: 600; }
-h2 { font-family: var(--tp-font-display); font-weight: 400; text-transform: uppercase; }
+h2 { font-family: var(--tp-font-accent); font-weight: 700; }
 h3 { line-height: 1.15; color: var(--tp-ink); }
 .tp-container { max-width: var(--tp-maxw); margin-inline: auto; padding-inline: 1.25rem; }
 
@@ -70,7 +68,7 @@ h3 { line-height: 1.15; color: var(--tp-ink); }
 .prose h1 { font-size: 1.875rem; margin-bottom: 0.5rem; }
 .prose blockquote {
   margin: 2rem 0 0.75rem; padding: 0; border: 0;
-  font-family: var(--tp-font-display); font-weight: 400; text-transform: uppercase;
+  font-family: var(--tp-font-accent); font-weight: 700;
   letter-spacing: -0.01em; color: var(--tp-ink); font-size: 1.25rem;
 }
 .prose ul { padding-left: 1.25rem; }
