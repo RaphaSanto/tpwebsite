@@ -6,6 +6,7 @@ slug: "teraport-impresses-at-k-show-with-mido"
 wp_id: 11256
 trid: 9545
 translation: "2025-10-15-teraport-beeindruckt-auf-der-k-messe-mit-mido.md"
+image: "/assets/uploads/Newsmeldung_K2025.jpg"
 ---
 
 The K-Show 2025 in Düsseldorf, the world’s leading trade fair for the plastics and rubber industry, opened its doors from 8 to 15 October. International exhibitors showcased innovations across the entire value chain, while visitors from engineering, procurement and production used the event to explore modern technologies and practical solutions.

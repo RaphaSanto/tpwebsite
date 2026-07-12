@@ -6,7 +6,7 @@ slug: "teraport-beeindruckt-auf-der-k-messe-mit-mido"
 wp_id: 11251
 trid: 9545
 translation: "2025-10-15-teraport-impresses-at-k-show-with-mido.md"
-image: "/assets/uploads/Newsmeldung_Aalen_2025.jpg"
+image: "/assets/uploads/Newsmeldung_K2025.jpg"
 ---
 
 Die K-Messe 2025 in Düsseldorf, weltweit führende Fachmesse der Kunststoff- und Kautschukindustrie, öffnete vom 8. bis 15. Oktober ihre Tore. Internationale Aussteller präsentierten Neuheiten entlang der gesamten Wertschöpfungskette, während Fachbesucher aus Entwicklung, Einkauf und Produktion die Messe nutzten, um sich über moderne Technologien und praxisnahe Lösungen auszutauschen.
