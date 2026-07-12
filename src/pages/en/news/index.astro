@@ -8,7 +8,7 @@ import { newsByLang, newsPath } from '../../../lib/news.ts';
 const lang = 'en' as const;
 const entries = newsByLang(await getCollection('news'), lang);
 ---
-<SiteLayout title="News – Teraport" lang={lang} altHref="/news/">
+<SiteLayout title="News – Teraport" lang={lang} altHref="/de/news/">
   <section class="tp-container section">
     <h1>{t(lang, 'news.title')}</h1>
     <div class="list">

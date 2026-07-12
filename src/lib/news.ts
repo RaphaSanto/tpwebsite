@@ -16,14 +16,14 @@ export function newsSlug(id: string): string {
 }
 
 export function newsPath(entry: NewsLikeEntry): string {
-  const prefix = entry.data.lang === 'en' ? '/en' : '';
+  const prefix = entry.data.lang === 'en' ? '/en' : '/de';
   return `${prefix}/news/${newsSlug(entry.id)}/`;
 }
 
 /** Pfad des Sprach-Gegenstücks (via translation-Dateiname); Fallback: News-Übersicht. */
 export function counterpartPath(entry: NewsLikeEntry, all: readonly NewsLikeEntry[]): string {
   const otherLang: Lang = entry.data.lang === 'de' ? 'en' : 'de';
-  const fallback = otherLang === 'en' ? '/en/news/' : '/news/';
+  const fallback = otherLang === 'en' ? '/en/news/' : '/de/news/';
   const file = entry.data.translation;
   if (!file) return fallback;
   const otherId = `${otherLang}/${file.replace(/\.mdx?$/, '')}`;

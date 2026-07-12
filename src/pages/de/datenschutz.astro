@@ -1,6 +1,6 @@
 ---
 import { getEntry, render } from 'astro:content';
-import SiteLayout from '../layouts/SiteLayout.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
 
 const entry = await getEntry('pages', 'de/datenschutz');
 if (!entry) throw new Error('Content pages/de/datenschutz fehlt – npm run migrate ausführen.');

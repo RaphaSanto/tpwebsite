@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import type { Lang } from '../i18n/ui.ts';
 interface Props { title: string; lang?: Lang; description?: string; altHref?: string; }
 const { title, lang = 'de', description = '', altHref } = Astro.props;
-const alt = altHref ?? (lang === 'de' ? '/en/' : '/');
+const alt = altHref ?? (lang === 'de' ? '/en/' : '/de/');
 ---
 <BaseLayout title={title} lang={lang} description={description}>
   <Header lang={lang} altHref={alt} />

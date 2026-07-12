@@ -1,8 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
-import SiteLayout from '../../layouts/SiteLayout.astro';
-import { t } from '../../i18n/ui.ts';
-import { newsSlug, counterpartPath } from '../../lib/news.ts';
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import { t } from '../../../i18n/ui.ts';
+import { newsSlug, counterpartPath } from '../../../lib/news.ts';
 
 export async function getStaticPaths() {
   const all = await getCollection('news');
@@ -20,7 +20,7 @@ const fmt = entry.data.date.toLocaleDateString('de-DE', { year: 'numeric', month
 ---
 <SiteLayout title={`${entry.data.title} – Teraport`} lang="de" altHref={altHref}>
   <article class="tp-container prose">
-    <p><a href="/news/">← {t('de', 'news.back')}</a></p>
+    <p><a href="/de/news/">← {t('de', 'news.back')}</a></p>
     <time datetime={entry.data.date.toISOString().slice(0, 10)}>{fmt}</time>
     <h1>{entry.data.title}</h1>
     {entry.data.image && <img class="hero-img" src={entry.data.image} alt="" loading="lazy" />}

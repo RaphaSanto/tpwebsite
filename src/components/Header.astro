@@ -8,23 +8,23 @@ const p = (de: string, en: string) => (lang === 'en' ? en : de);
 ---
 <header class="site-header">
   <div class="tp-container inner">
-    <a href={p('/', '/en/')} class="brand" aria-label="Teraport – Startseite">
+    <a href={p('/de/', '/en/')} class="brand" aria-label="Teraport – Startseite">
       <Image src={logo} alt="Teraport" height={60} densities={[1, 2]} />
     </a>
     <nav aria-label="Hauptnavigation">
       <div class="dropdown">
         <button class="drop-trigger" type="button" aria-haspopup="true">{t(lang, 'nav.products')} ▾</button>
         <div class="menu">
-          <a href={p('/mido/', '/en/mido/')}>mido</a>
-          <a href={p('/veo/', '/en/veo/')}>veo</a>
-          <a href={p('/toolkit/', '/en/toolkit/')}>toolkit</a>
-          <a href={p('/connect/', '/en/connect/')}>connect</a>
+          <a href={p('/de/mido/', '/en/mido/')}>mido</a>
+          <a href={p('/de/veo/', '/en/veo/')}>veo</a>
+          <a href={p('/de/toolkit/', '/en/toolkit/')}>toolkit</a>
+          <a href={p('/de/connect/', '/en/connect/')}>connect</a>
         </div>
       </div>
-      <a href={p('/services/', '/en/services/')}>{t(lang, 'nav.services')}</a>
-      <a href={p('/unternehmen/', '/en/company/')}>{t(lang, 'nav.company')}</a>
-      <a href={p('/news/', '/en/news/')}>{t(lang, 'nav.news')}</a>
-      <a href={p('/kontakt/', '/en/contact/')} class="cta">{t(lang, 'nav.contact')}</a>
+      <a href={p('/de/services/', '/en/services/')}>{t(lang, 'nav.services')}</a>
+      <a href={p('/de/unternehmen/', '/en/company/')}>{t(lang, 'nav.company')}</a>
+      <a href={p('/de/news/', '/en/news/')}>{t(lang, 'nav.news')}</a>
+      <a href={p('/de/kontakt/', '/en/contact/')} class="cta">{t(lang, 'nav.contact')}</a>
       <a href={altHref} class="lang" rel="alternate" hreflang={lang === 'de' ? 'en' : 'de'}>
         {lang === 'de' ? 'EN' : 'DE'}
       </a>

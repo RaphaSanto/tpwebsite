@@ -9,35 +9,35 @@ import { t } from '../../i18n/ui.ts';
 import { newsByLang, newsPath } from '../../lib/news.ts';
 import heroImg from '../../assets/hero/Injection-Mold-Grafik.png';
 
-const lang = 'en' as const;
+const lang = 'de' as const;
 const products = (await getCollection('products', (e) => e.data.lang === lang))
   .sort((a, b) => a.data.order - b.data.order);
 const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
 ---
 <SiteLayout
-  title="Teraport – Software for tool cost calculation & 3D analysis"
+  title="Teraport – Software für Werkzeugkostenkalkulation & 3D-Analysen"
   lang={lang}
-  description="Teraport GmbH: software for 3D analysis and tool cost calculation from Munich."
-  altHref="/de/"
+  description="Teraport GmbH: Software für 3D-Analysen und Werkzeugkostenkalkulation aus München."
+  altHref="/en/"
 >
   <Hero
     kicker={t(lang, 'home.hero.kicker')}
     title={t(lang, 'home.hero.title')}
     ctaLabel={t(lang, 'home.hero.cta')}
-    ctaHref="/en/contact/"
-    subline="Design validation and tool cost calculation – powerful solutions that facilitate - based on 3D-CAD data - comprehensive and traceable results in no time at all."
-    cta2Label="View products"
-    cta2Href="#products"
+    ctaHref="/de/kontakt/"
+    subline="Design-Validierung und Werkzeugkostenkalkulation, – mit mächtigen Lösungen schnell und einfach vom 3D-CAD-Modell zu umfangreichen und nachvollziehbaren Ergebnissen."
+    cta2Label="Produkte ansehen"
+    cta2Href="#produkte"
     image={heroImg}
-    imageAlt="Injection mold – 3D CAD view"
+    imageAlt="Spritzgusswerkzeug – 3D-CAD-Darstellung"
   />
 
-  <section id="products" class="band">
+  <section id="produkte" class="band">
     <div class="tp-container section">
       <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
       <div class="grid-2">
         {products.map((p) => (
-          <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/en/${p.data.slug}/`} more={t(lang, 'product.more')} />
+          <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/de/${p.data.slug}/`} more={t(lang, 'product.more')} />
         ))}
       </div>
     </div>
@@ -48,7 +48,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
   <section class="tp-container section">
     <div class="row-between">
       <h2 class="section-title">{t(lang, 'home.news.title')}</h2>
-      <a href="/en/news/">{t(lang, 'home.news.all')} →</a>
+      <a href="/de/news/">{t(lang, 'home.news.all')} →</a>
     </div>
     <div class="grid-3">
       {latest.map((n) => (

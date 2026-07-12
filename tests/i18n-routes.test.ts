@@ -4,27 +4,27 @@ import { t } from '../src/i18n/ui.ts';
 
 describe('altPath', () => {
   it('mappt DE-Routen auf ihr EN-Gegenstück', () => {
-    expect(altPath('/')).toBe('/en/');
-    expect(altPath('/unternehmen/')).toBe('/en/company/');
-    expect(altPath('/impressum/')).toBe('/en/legal-notice/');
+    expect(altPath('/de/')).toBe('/en/');
+    expect(altPath('/de/unternehmen/')).toBe('/en/company/');
+    expect(altPath('/de/impressum/')).toBe('/en/legal-notice/');
   });
   it('mappt EN-Routen zurück auf DE', () => {
-    expect(altPath('/en/')).toBe('/');
-    expect(altPath('/en/company/')).toBe('/unternehmen/');
-    expect(altPath('/en/data-privacy/')).toBe('/datenschutz/');
+    expect(altPath('/en/')).toBe('/de/');
+    expect(altPath('/en/company/')).toBe('/de/unternehmen/');
+    expect(altPath('/en/data-privacy/')).toBe('/de/datenschutz/');
   });
   it('normalisiert fehlende Trailing-Slashes', () => {
-    expect(altPath('/mido')).toBe('/en/mido/');
-    expect(altPath('/en/mido')).toBe('/mido/');
+    expect(altPath('/de/mido')).toBe('/en/mido/');
+    expect(altPath('/en/mido')).toBe('/de/mido/');
   });
   it('fällt bei unbekannten Pfaden auf die Startseite der anderen Sprache zurück', () => {
     expect(altPath('/gibt-es-nicht/')).toBe('/en/');
-    expect(altPath('/en/does-not-exist/')).toBe('/');
+    expect(altPath('/en/does-not-exist/')).toBe('/de/');
   });
   it('mappt die neuen Produkt-/Service-Routen', () => {
-    expect(altPath('/toolkit/')).toBe('/en/toolkit/');
-    expect(altPath('/connect/')).toBe('/en/connect/');
-    expect(altPath('/en/services/')).toBe('/services/');
+    expect(altPath('/de/toolkit/')).toBe('/en/toolkit/');
+    expect(altPath('/de/connect/')).toBe('/en/connect/');
+    expect(altPath('/en/services/')).toBe('/de/services/');
   });
 });
 

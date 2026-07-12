@@ -1,5 +1,5 @@
 ---
-title: "mido"
+title: "MIDO"
 lang: de
 slug: "mido"
 order: 1
@@ -9,6 +9,8 @@ teaser: "Werkzeugkostenkalkulation aus 3D-CAD-Modellen – schnell, transparent,
 Bei der modernen Produktentwicklung ist frühe Kostentransparenz oft der Unterschied zwischen Erfolg und Misserfolg. Ob Kunststoffspritzguss, Druckguss oder Blechstanzen: Die Kosten für Formen und Werkzeuge sind der wichtigste Kostenfaktor für den Endpreis eines Teils.
 
 Mit **mido** wird die Werkzeugkostenkalkulation zu einer leicht zu bewältigenden Aufgabe: eine visuell unterstützte, regelbasierte Werkzeug- und Formenkonfiguration, kombiniert mit der automatischen Erkennung von Kostentreibern direkt auf dem 3D-CAD-Modell.
+
+"Der richtige Preis immer schnell zur Hand"
 
 ## Das leistet mido
 

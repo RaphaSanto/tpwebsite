@@ -6,7 +6,8 @@ export default defineConfig({
     locales: ['de', 'en'],
     defaultLocale: 'de',
     routing: {
-      prefixDefaultLocale: false, // /… ist Deutsch, /en/… ist Englisch
+      prefixDefaultLocale: true, // /de/… und /en/… symmetrisch; / leitet auf /de/ um
+      redirectToDefaultLocale: true,
     },
   },
 });

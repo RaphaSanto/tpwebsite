@@ -1,65 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
-import SiteLayout from '../layouts/SiteLayout.astro';
-import Hero from '../components/Hero.astro';
-import ProductTile from '../components/ProductTile.astro';
-import BenefitsBar from '../components/BenefitsBar.astro';
-import NewsCard from '../components/NewsCard.astro';
-import { t } from '../i18n/ui.ts';
-import { newsByLang, newsPath } from '../lib/news.ts';
-import heroImg from '../assets/hero/Injection-Mold-Grafik.png';
-
-const lang = 'de' as const;
-const products = (await getCollection('products', (e) => e.data.lang === lang))
-  .sort((a, b) => a.data.order - b.data.order);
-const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
+// Root leitet auf die deutsche Startseite um (Default-Locale mit /de/-Präfix).
 ---
-<SiteLayout
-  title="Teraport – Software für Werkzeugkostenkalkulation & 3D-Analysen"
-  lang={lang}
-  description="Teraport GmbH: Software für 3D-Analysen und Werkzeugkostenkalkulation aus München."
-  altHref="/en/"
->
-  <Hero
-    kicker={t(lang, 'home.hero.kicker')}
-    title={t(lang, 'home.hero.title')}
-    ctaLabel={t(lang, 'home.hero.cta')}
-    ctaHref="/kontakt/"
-    subline="Design-Validierung und Werkzeugkostenkalkulation, – mit mächtigen Lösungen schnell und einfach vom 3D-CAD-Modell zu umfangreichen und nachvollziehbaren Ergebnissen."
-    cta2Label="Produkte ansehen"
-    cta2Href="#produkte"
-    image={heroImg}
-    imageAlt="Spritzgusswerkzeug – 3D-CAD-Darstellung"
-  />
-
-  <section id="produkte" class="band">
-    <div class="tp-container section">
-      <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
-      <div class="grid-2">
-        {products.map((p) => (
-          <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/${p.data.slug}/`} more={t(lang, 'product.more')} />
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <BenefitsBar lang={lang} />
-
-  <section class="tp-container section">
-    <div class="row-between">
-      <h2 class="section-title">{t(lang, 'home.news.title')}</h2>
-      <a href="/news/">{t(lang, 'home.news.all')} →</a>
-    </div>
-    <div class="grid-3">
-      {latest.map((n) => (
-        <NewsCard title={n.data.title} date={n.data.date} href={newsPath(n)} lang={lang} image={n.data.image} />
-      ))}
-    </div>
-  </section>
-</SiteLayout>
-<style>
-  .band { background: var(--tp-card); }
-  .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; }
-  .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
-  .row-between { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-</style>
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0;url=/de/" />
+    <link rel="canonical" href="/de/" />
+    <title>Teraport</title>
+  </head>
+  <body>
+    <p><a href="/de/">Weiter zur Startseite / Continue to homepage</a></p>
+  </body>
+</html>

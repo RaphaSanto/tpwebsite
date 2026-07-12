@@ -20,7 +20,7 @@ describe('newsByLang', () => {
 describe('newsSlug / newsPath', () => {
   it('leitet Slug und Pfad aus der sprach-qualifizierten ID ab', () => {
     expect(newsSlug(de1.id)).toBe('2025-11-15-moldplas');
-    expect(newsPath(de1)).toBe('/news/2025-11-15-moldplas/');
+    expect(newsPath(de1)).toBe('/de/news/2025-11-15-moldplas/');
     expect(newsPath(en1)).toBe('/en/news/2025-11-15-moldplas/');
   });
 });
@@ -28,7 +28,7 @@ describe('newsSlug / newsPath', () => {
 describe('counterpartPath', () => {
   it('findet das Gegenstück über den translation-Dateinamen', () => {
     expect(counterpartPath(de1, all)).toBe('/en/news/2025-11-15-moldplas/');
-    expect(counterpartPath(en1, all)).toBe('/news/2025-11-15-moldplas/');
+    expect(counterpartPath(en1, all)).toBe('/de/news/2025-11-15-moldplas/');
   });
   it('fällt ohne Gegenstück auf die News-Übersicht der anderen Sprache zurück', () => {
     expect(counterpartPath(de2, all)).toBe('/en/news/');

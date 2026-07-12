@@ -6,7 +6,7 @@ const entry = await getEntry('pages', 'en/company');
 if (!entry) throw new Error('Content pages/en/company fehlt – npm run migrate ausführen.');
 const { Content } = await render(entry);
 ---
-<SiteLayout title={`${entry.data.title} – Teraport`} lang="en" altHref="/unternehmen/">
+<SiteLayout title={`${entry.data.title} – Teraport`} lang="en" altHref="/de/unternehmen/">
   <article class="tp-container prose">
     <h1>{entry.data.title}</h1>
     <Content />

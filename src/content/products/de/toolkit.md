@@ -24,4 +24,4 @@ Leistungsfähige, stabile und methodisch innovative Algorithmen gewährleisten h
 
 ## Module
 
-Eine detaillierte Beschreibung aller verfügbaren Module stellen wir gern auf Anfrage zur Verfügung – [Kontakt aufnehmen](/kontakt/).
+Eine detaillierte Beschreibung aller verfügbaren Module stellen wir gern auf Anfrage zur Verfügung – [Kontakt aufnehmen](/de/kontakt/).
