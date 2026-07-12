@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { newsSchema, productSchema } from '../src/content-schemas.ts';
+import { newsSchema } from '../src/content-schemas.ts';
 
 describe('newsSchema', () => {
   it('akzeptiert einen gültigen News-Frontmatter und coerct das Datum', () => {
@@ -30,9 +30,3 @@ describe('newsSchema', () => {
   });
 });
 
-describe('productSchema', () => {
-  it('setzt order auf 0 per Default', () => {
-    const p = productSchema.parse({ title: 'veo', lang: 'de', slug: 'veo', teaser: 't' });
-    expect(p.order).toBe(0);
-  });
-});

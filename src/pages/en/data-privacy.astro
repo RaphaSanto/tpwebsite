@@ -1,14 +1,31 @@
 ---
-import { getEntry, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-
-const entry = await getEntry('pages', 'en/data-privacy');
-if (!entry) throw new Error('Content pages/en/data-privacy fehlt – npm run migrate ausführen.');
-const { Content } = await render(entry);
 ---
-<SiteLayout title={`${entry.data.title} – Teraport`} lang="en" altHref="/de/datenschutz/">
+<SiteLayout title="AGB / Data privacy – Teraport" lang="en" altHref="/de/datenschutz/">
   <article class="tp-container prose">
-    <h1>{entry.data.title}</h1>
-    <Content />
+    <h1>AGB / Data privacy</h1>
+    <blockquote>General terms and conditions</blockquote>
+    <em>(please note that the terms and conditions are currently only available in German)</em>
+
+    <hr />
+
+    Allgemeine Geschäftsbedingungen der Teraport GmbH für die Erbringung von IT-Dienstleistungen gegenüber Unternehmen
+
+    <a href="http://teraport.de/docs/2008_06_30_AGB_Teraport.pdf">Herunterladen</a> (53 KB)
+
+    Allgemeine Geschäftsbedingungen für Lizenzverträge des Lizenzgebers Teraport GmbH
+
+    <a href="http://teraport.de/docs/2008_06_30_AGB_Lizenzvertrag.pdf">Herunterladen </a>(33 KB)
+
+    <hr />
+
+    <blockquote>Data privacy notice</blockquote>
+    <em>(please note that the data privacy notice is currently only available in German)</em>
+
+    <hr />
+
+    Datenschutzerklärung der Teraport GmbH
+
+    <a href="http://teraport.de/docs/Datenschutzerklaerung_Teraport_180523.pdf">Herunterladen </a>(33 KB)
   </article>
 </SiteLayout>

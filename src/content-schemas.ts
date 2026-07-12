@@ -13,16 +13,4 @@ export const newsSchema = z.object({
   image: z.string().optional(),
 });
 
-export const productSchema = z.object({
-  title: z.string(),
-  lang,
-  slug: z.string(),
-  order: z.number().default(0),
-  teaser: z.string(),
-});
 
-export const pageSchema = z.object({
-  title: z.string(),
-  lang,
-  slug: z.string(),
-});

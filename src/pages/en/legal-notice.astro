@@ -1,14 +1,30 @@
 ---
-import { getEntry, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-
-const entry = await getEntry('pages', 'en/legal-notice');
-if (!entry) throw new Error('Content pages/en/legal-notice fehlt – npm run migrate ausführen.');
-const { Content } = await render(entry);
 ---
-<SiteLayout title={`${entry.data.title} – Teraport`} lang="en" altHref="/de/impressum/">
+<SiteLayout title="Legal Notice – Teraport" lang="en" altHref="/de/impressum/">
   <article class="tp-container prose">
-    <h1>{entry.data.title}</h1>
-    <Content />
+    <h1>Legal Notice</h1>
+    <blockquote>Legal Notice</blockquote>
+    Teraport GmbH
+    Kellerstr. 29
+    81667 München
+
+    phone: +49 (0)89 651086 700
+    fax:       +49 (0)89 651086 701
+    email: info(at)teraport.de
+    web: www.teraport.de
+
+    Managing Director
+    Raphael Heilig
+
+    Comercial register
+    Registergericht München HRB 210303
+
+    USt-Id Nr.: DE 274 208 097
+
+    Responsible for the content
+    Raphael Heilig
+
+    Image sources: www.photocase.de, www.fotolia.de, www.istockphoto.com
   </article>
 </SiteLayout>

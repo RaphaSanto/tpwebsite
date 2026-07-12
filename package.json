@@ -15,8 +15,7 @@
     "import:news": "node scripts/import-news.mjs",
     "extract:news-images": "node scripts/extract-news-images.mjs",
     "extract:assets": "node scripts/extract-assets.mjs",
-    "extract:pages": "node scripts/extract-pages.mjs",
-    "migrate": "npm run import:news && npm run extract:news-images && npm run extract:assets && npm run extract:pages"
+    "migrate": "npm run import:news && npm run extract:news-images && npm run extract:assets"
   },
   "dependencies": {
     "@fontsource/inter-tight": "^5.2.7",

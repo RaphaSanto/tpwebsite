@@ -7,11 +7,11 @@ import BenefitsBar from '../../components/BenefitsBar.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import { t } from '../../i18n/ui.ts';
 import { newsByLang, newsPath } from '../../lib/news.ts';
+import { products as productTiles } from '../../data/products.ts';
 import heroImg from '../../assets/hero/Injection-Mold-Grafik.png';
 
 const lang = 'en' as const;
-const products = (await getCollection('products', (e) => e.data.lang === lang))
-  .sort((a, b) => a.data.order - b.data.order);
+const products = productTiles[lang];
 const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
 ---
 <SiteLayout
@@ -37,7 +37,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
       <h2 class="section-title">{t(lang, 'home.products.title')}</h2>
       <div class="grid-2">
         {products.map((p) => (
-          <ProductTile title={p.data.title} teaser={p.data.teaser} href={`/en/${p.data.slug}/`} more={t(lang, 'product.more')} />
+          <ProductTile title={p.title} teaser={p.teaser} href={`/en/${p.slug}/`} more={t(lang, 'product.more')} />
         ))}
       </div>
     </div>
