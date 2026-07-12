@@ -3,15 +3,32 @@ import { t, type Lang } from '../i18n/ui.ts';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const items = [t(lang, 'benefits.1'), t(lang, 'benefits.2'), t(lang, 'benefits.3')];
+const slogan = ['simple', 'precise', 'fast']; // Marken-Slogan, sprachunabhängig
 ---
 <section class="benefits">
-  <div class="tp-container row">
-    {items.map((b) => <span class="item"><span class="check">✓</span> {b}</span>)}
+  <div class="tp-container">
+    <p class="slogan">
+      {slogan.map((w, i) => (
+        <>
+          {i > 0 && <span class="dot">·</span>}
+          <span>{w}</span>
+        </>
+      ))}
+    </p>
+    <div class="row">
+      {items.map((b) => <span class="item"><span class="check">✓</span> {b}</span>)}
+    </div>
   </div>
 </section>
 <style>
-  /* Brandbook v2: Leiste gray-50, Linien gray-300, orange Haken */
-  .benefits { background: var(--tp-gray-50); border-block: 1px solid var(--tp-gray-300); padding-block: 1.1rem; }
+  /* Brandbook v2: Leiste gray-50, Linien gray-300; Slogan in Righteous (Displayschrift) */
+  .benefits { background: var(--tp-gray-50); border-block: 1px solid var(--tp-gray-300); padding-block: 1.4rem 1.1rem; }
+  .slogan {
+    font-family: var(--tp-font-display); text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--tp-gray-900); font-size: 1.5rem; line-height: 1.1;
+    text-align: center; margin: 0 0 0.75rem; display: flex; justify-content: center; gap: 0.6em; flex-wrap: wrap;
+  }
+  .dot { color: var(--tp-orange-400); }
   .row { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; font-weight: 600; }
   .item { white-space: nowrap; color: var(--tp-gray-900); }
   .check { color: var(--tp-orange-400); font-weight: 700; }
