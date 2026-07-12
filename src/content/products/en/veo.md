@@ -3,21 +3,38 @@ title: "veo"
 lang: en
 slug: "veo"
 order: 2
-teaser: "Powerful 3D viewer for large assemblies – DMU, analysis, costing and simulation."
+teaser: "Design validation for cast parts – check manufacturability in seconds, directly on the 3D CAD model."
 ---
 
-With **veo**, Teraport provides its customers with a powerful 3D viewer focused on fast visualization of large assemblies. Thanks to a wide range of CAD interfaces, virtually every common 3D model can be loaded and displayed.
+## Design for Manufacturing
 
-In addition to fundamental functions such as measuring and sectioning, veo offers a broad selection of additional functions around DMU, analysis, costing and simulation, grouped into optional workbenches.
+Product developers face a continuously growing challenge: meeting functional requirements as well as the demands of the manufacturing processes. For cast parts, physical prototypes or CAE simulations offer support – but often, designers need their feedback faster.
 
-## Features at a glance
+This is where **veo** (formerly veoCAST) comes in: a tool for fast, design-oriented validation of parts against the requirements of casting processes. Easy handling and short calculation times mean problems are recognized earlier and optimizations become faster and more cost-efficient – *detailed part insights, only one click away*.
 
-- High visualization performance: many models, short loading times
-- 3D visualization: rotate, zoom, pan, set focus, custom mouse mapping, 3Dconnexion SpaceMouse support
-- Extensive CAD interfaces for all common formats
-- Measuring and sectioning functions
-- Extendable via workbenches: DMU, analysis, costing, simulation
+Beyond design departments, veo is increasingly used in technical purchasing at OEMs and suppliers, and by foundries to support their technical sales and RFQ processes.
 
-## Custom applications
+## What veo does
 
-For customers with special requirements, veo's flexible concept can serve as the basis for custom applications built on visualization of and interaction with 3D parts. The architecture enables fast, stable implementation of customer-specific plugins – a concept verified in practice.
+- Wall thickness analysis with colormaps, iso surfaces and histogram – calculated in just a few seconds
+- Detection of local minima (minimum wall thickness) and maxima (shrinkage cavities, material accumulations)
+- Projection of part geometry, e.g. to evaluate hold-down/clamping forces
+- Calculation of geometric differences between development stages
+- Tool surface analysis: tool halves, occlusion, draft angles
+- Undercut calculation and slider concept analysis with demolding evaluation
+- Automatic parting line detection or optimization of undercut volume
+- Fillet analysis on inner and outer edges, detection of hard-to-manufacture small gaps
+- Part properties: package size, volume, weight
+- Customizable reports (including your company logo) and an exchange file to easily share complete analysis results
+- Interfaces to all common CAD systems (CATIA, Creo, SolidWorks, NX, Parasolid, STEP, JT)
+
+## Latest version 26.1 (01/2026)
+
+- **New wall thickness:** high-performance, fast (just a few seconds!) calculation of the average wall thickness, creation of a wall thickness histogram
+- **Performance improvement:** dynamic memory usage for better performance on high-end hardware
+
+## Who is it for?
+
+Design and validation of cast parts, technical purchasing at OEMs and suppliers, technical sales at foundries – wherever manufacturability needs to be checked early, quickly and reliably.
+
+**Try it now:** Request a free evaluation license – [get in touch](/en/contact/).

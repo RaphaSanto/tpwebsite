@@ -3,21 +3,38 @@ title: "veo"
 lang: de
 slug: "veo"
 order: 2
-teaser: "Leistungsfähiger 3D-Viewer für große Baugruppen – DMU, Analyse, Kalkulation und Simulation."
+teaser: "Design-Validierung für Gussbauteile – Fertigungsgerechtheit in Sekunden prüfen, direkt am 3D-CAD-Modell."
 ---
 
-Mit **veo** stellt Teraport seinen Kunden einen leistungsfähigen 3D-Viewer zur Verfügung. Im Fokus steht die schnelle Visualisierung großer Baugruppen. Durch eine Vielzahl verfügbarer CAD-Schnittstellen ist praktisch jedes gängige 3D-Modell einles- und darstellbar.
+## Design for Manufacturing
 
-Neben grundsätzlichen Funktionen wie Messen und Schneiden bietet veo eine breite Auswahl an Zusatzfunktionen im Umfeld DMU, Analyse, Kalkulation und Simulation, die in optional erhältlichen Workbenches gruppiert sind.
+Konstrukteure stehen heute vor der Herausforderung, funktionale Anforderungen und die Bedarfe der Fertigungsprozesse gleichzeitig zu erfüllen. Für Gussbauteile bieten physische Prototypen oder CAE-Simulationen Unterstützung – oft muss es aber schneller gehen.
 
-## Die Funktionen im Überblick
+Hier setzt **veo** (vormals veoCAST) an: ein Werkzeug zur schnellen, konstruktionsnahen Absicherung von Bauteilen hinsichtlich der Anforderungen von Gussprozessen. Einfache Bedienung und kurze Rechenzeiten sorgen dafür, dass Problemstellen früher erkannt und Verbesserungen schneller und kostengünstiger umgesetzt werden – *detailed part insights, only one click away*.
 
-- Hohe Visualisierungsleistung: viele Modelle, kurze Ladezeiten
-- 3D-Visualisierung: Drehen, Zoomen, Schieben, Fokus setzen, individuelle Mausbelegung, 3D-Connexion-Spacemouse-Support
-- Umfangreiche CAD-Schnittstellen für alle gängigen Formate
-- Mess- und Schnittfunktionen
-- Erweiterbar durch Workbenches: DMU, Analyse, Kalkulation, Simulation
+Neben der Konstruktion wird veo inzwischen auch im Einkaufsprozess von OEMs und Zulieferern sowie im technischen Vertrieb von Gießereien (RFQ-Prozess) eingesetzt.
 
-## Individuelle Applikationen
+## Das leistet veo
 
-Für Kunden mit besonderen Anforderungen kann veo durch sein flexibles Konzept die Basis für individuelle Applikationen sein, die sich der Visualisierung und Interaktion mit 3D-Bauteilen bedienen. Die Architektur ermöglicht die schnelle, stabile Umsetzung kundenspezifischer Plugins – ein in der Praxis verifiziertes Konzept.
+- Wandstärkenanalyse mit Colormaps, Isoflächen und Histogramm – Berechnung in wenigen Sekunden
+- Ermittlung lokaler Minima (minimale Wandstärke) und Maxima (Lunker, Materialanhäufungen)
+- Projektion der Bauteilgeometrie, z. B. zur Zuhaltekraft-/Schließkraftberechnung
+- Berechnung von Geometrieänderungen zwischen Entwicklungsständen
+- Werkzeugflächenanalyse: Werkzeughälften, Verdeckung, Entformungsschrägen
+- Berechnung von Hinterschnitten und Schieberkonzept-Untersuchung mit Entformungsanalyse
+- Automatische Trennebenen-Findung bzw. Optimierung des Hinterschnittvolumens
+- Verrundungsanalyse an Innen- und Außenkanten, Analyse von Spaltmaßen
+- Bauteileigenschaften: Packungsgröße, Volumen, Gewicht
+- Anpassbare Reports (inkl. Firmenlogo) und Exchange-Datei zum einfachen Teilen kompletter Analyseergebnisse
+- Schnittstellen zu allen gängigen CAD-Systemen (CATIA, Creo, SolidWorks, NX, Parasolid, STEP, JT)
+
+## Aktuelle Version 26.1 (01/2026)
+
+- **Neue Wandstärke:** leistungsfähige, schnelle Berechnung (wenige Sekunden!) der mittleren Wandstärke, Erstellung eines Wandstärke-Histogramms
+- **Performanceverbesserung:** dynamische Speichernutzung für bessere Performance auf High-End-Hardware
+
+## Für wen?
+
+Konstruktion und Absicherung von Gussbauteilen, technischer Einkauf bei OEMs und Zulieferern, technischer Vertrieb von Gießereien – überall dort, wo Fertigungsgerechtheit früh, schnell und belastbar geprüft werden muss.
+
+**Jetzt testen:** Fordern Sie eine kostenlose Testlizenz an – [Kontakt aufnehmen](/de/kontakt/).
