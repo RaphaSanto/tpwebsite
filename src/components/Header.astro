@@ -32,29 +32,29 @@ const p = (de: string, en: string) => (lang === 'en' ? en : de);
   </div>
 </header>
 <style>
-  /* Schema D: weißer Header, Logo ~120% transparent, dunkle Schrift */
-  .site-header { background: var(--tp-white); border-bottom: 1px solid #e4e4e7; }
+  /* Brandbook v2: Header gray-200, Unterkante gray-300, Nav Inter Tight 500/15px */
+  .site-header { background: var(--tp-gray-200); border-bottom: 1px solid var(--tp-gray-300); }
   .inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.3rem; flex-wrap: wrap; }
   /* Marken-Logo (einfarbig grau, transparent) – Original-Farben der Datei */
   .brand img { display: block; }
   nav { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
-  nav a { color: var(--tp-ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
-  nav a:hover { color: var(--tp-link); }
-  nav a.cta { background: #3f3f46; color: #f4f4f5; padding: 0.45rem 0.9rem; border-radius: 6px; }
-  nav a.cta:hover { filter: brightness(1.15); color: #ffffff; }
-  nav a.lang { border: 1px solid #8e8e93; color: #3f3f46; padding: 0.3rem 0.55rem; border-radius: 6px; font-size: 0.85rem; }
+  nav a { color: var(--tp-ink); text-decoration: none; font-weight: 500; font-size: 0.9375rem; }
+  nav a:hover { color: var(--tp-orange-500); }
+  nav a.cta { background: var(--tp-gray-900); color: var(--tp-gray-0); padding: 0.45rem 0.9rem; border-radius: 7px; font-family: var(--tp-font-accent); font-weight: 600; }
+  nav a.cta:hover { filter: brightness(1.35); color: var(--tp-gray-0); }
+  nav a.lang { border: 1px solid var(--tp-gray-400); color: var(--tp-gray-600); padding: 0.3rem 0.55rem; border-radius: 999px; font-size: 0.85rem; }
   .dropdown { position: relative; }
   .drop-trigger {
     background: none; border: 0; cursor: pointer;
-    font: inherit; font-weight: 600; font-size: 0.95rem; color: var(--tp-ink); padding: 0;
+    font: inherit; font-weight: 500; font-size: 0.9375rem; color: var(--tp-ink); padding: 0;
   }
-  .drop-trigger:hover { color: var(--tp-link); }
+  .drop-trigger:hover { color: var(--tp-orange-500); }
   .menu {
     display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-    background: var(--tp-white); border: 1px solid #e4e4e7; border-radius: 8px;
-    padding: 0.5rem; min-width: 9rem; box-shadow: 0 8px 24px rgb(24 24 27 / 14%); z-index: 20;
+    background: var(--tp-gray-0); border: 1px solid var(--tp-gray-300); border-radius: 8px;
+    padding: 0.5rem; min-width: 9rem; box-shadow: 0 8px 24px rgb(0 0 0 / 14%); z-index: 20;
   }
   .dropdown:hover .menu, .dropdown:focus-within .menu { display: grid; gap: 0.15rem; }
   .menu a { padding: 0.4rem 0.7rem; border-radius: 6px; color: var(--tp-ink); }
-  .menu a:hover { background: var(--tp-bg); color: var(--tp-ink); }
+  .menu a:hover { background: var(--tp-gray-50); color: var(--tp-ink); }
 </style>

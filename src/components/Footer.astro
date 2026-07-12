@@ -28,12 +28,13 @@ const year = new Date().getFullYear();
   <div class="tp-container copy">© {year} Teraport GmbH</div>
 </footer>
 <style>
-  .site-footer { background: var(--tp-ink); color: #d4d4d8; margin-top: 4rem; padding-block: 2.5rem 1.25rem; font-size: 0.95rem; }
+  /* Brandbook v2: Footer gray-900, Text gray-400, Copyright gray-600 */
+  .site-footer { background: var(--tp-gray-900); color: var(--tp-gray-400); margin-top: 4rem; padding-block: 2.5rem 1.25rem; font-size: 0.95rem; }
   .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; align-items: start; }
-  .tagline { color: var(--tp-blue-light); margin-top: 0.75rem; }
+  .tagline { color: var(--tp-orange-400); margin-top: 0.75rem; font-family: var(--tp-font-accent); }
   address { font-style: normal; line-height: 1.8; }
-  .site-footer a { color: #f4f4f5; text-decoration: none; }
-  .site-footer a:hover { color: var(--tp-blue-light); }
+  .site-footer a { color: var(--tp-gray-100); text-decoration: none; }
+  .site-footer a:hover { color: var(--tp-orange-400); }
   .site-footer nav { display: grid; gap: 0.5rem; }
-  .copy { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #2c2c31; color: #a1a1aa; font-size: 0.85rem; }
+  .copy { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgb(255 255 255 / 12%); color: var(--tp-gray-600); font-size: 0.85rem; }
 </style>
