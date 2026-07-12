@@ -4,13 +4,20 @@ lang: en
 slug: "services"
 ---
 
-<blockquote>Services</blockquote>
-
 <blockquote>Services - Our definition</blockquote>
-We represent high quality engineering- and software-services. Our goal is to build a tight and trustworthy and hence long term partnership with our customers. The values fairness, reliability and authenticity form the base for this cooperation. Maximization of customer satisfaction as well as economic benefits is our central concern. Key to this are our employees. We are very well aware of what that means. Responsibility towards customers starts with responsibility towards our own staff. A very high elaborateness in choosing, training, supporting, motivating and leading our employees secures, that we achieve traceable values for our customers.
 
-<blockquote>Expertise</blockquote>
+We represent high quality services. Our goal is to build a close, trusting and therefore long-term partnership with our customers. The values fairness, reliability and authenticity form the basis for this. Maximizing customer satisfaction and economic benefit is our central concern. Key to this are our employees – we are very well aware of that. For Teraport GmbH, responsibility towards the customer always also means responsibility towards the employee. Great care in selecting, training, supporting, motivating and leading our employees ensures that our specialists create measurable added value for our customers.
+
+<blockquote>IT project management, requirements analysis and software development</blockquote>
+
+Do you need support for your project? Teraport is the right partner for you. Based on the broad know-how Teraport GmbH has acquired as a software vendor over the past 20 years, we serve our customers with services around software development and IT. Whether for end customers or together with large IT system integrators – complex projects benefit from the extensive tool, methodology and process knowledge of our specialists. The strongest focus of our activities has always been on the automotive, manufacturing and aerospace industries, so we bring in-depth knowledge of their specific ways of working and are able to create value in a variety of roles. Are you looking for reinforcement in requirements analysis, specification, project management or software development?
+
+<strong><em>We have the missing piece – talk to us!</em></strong>
+
+<blockquote>Technology and methodology expertise</blockquote>
 
 <hr />
+
+<em>Java / J2EE / C++ / C / requirements analysis and specification / UML / IT project management / databases (Oracle, PostgreSQL) / algorithm development / UNIX / Linux / process know-how automotive / Eclipse RCP plug-in development / ANT / EJB / Glassfish / CI/CD / CAD / CAM / PDM / PLM / agile software development (SCRUM) / automated test processes (end2end) / macro development (CATIA, NX, OFFICE)</em>
 
 <hr />

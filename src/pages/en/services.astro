@@ -2,7 +2,7 @@
 import { getEntry, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 
-const ids = ['en/services', 'en/engineering', 'en/software-development'];
+const ids = ['en/services'];
 const sections = [];
 for (const id of ids) {
   const entry = await getEntry('pages', id);

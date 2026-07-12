@@ -3,10 +3,10 @@ title: "toolkit"
 lang: de
 slug: "toolkit"
 order: 3
-teaser: "Modularer Software-Baukasten für DMU – flexibel, neutral, hochgradig automatisierbar."
+teaser: "Modularer Software-Baukasten für 3D-Analysen – flexibel, neutral, hochgradig automatisierbar."
 ---
 
-Einzelne Module aus dem **toolkit** (DMU-Toolkit) sind Bestandteil jeder Teraport-Software-Lösung: von der standardisierten Einstiegslösung für einen Zulieferer mit zehn Anwendern bis zur Individuallösung für Automobilkonzerne mit mehreren tausend Anwendern – für Konstrukteure und Designer ebenso wie für Montageplaner und Service-Bereiche, mal gekoppelt an ein CAD- oder PDM-System, mal als eigenständige Lösung.
+Einzelne Module aus dem **toolkit** sind Bestandteil jeder Teraport-Software-Lösung: von der standardisierten Einstiegslösung für einen Zulieferer mit zehn Usern bis zur Individuallösung für Automobilkonzerne mit mehreren tausend Anwendern – für Konstrukteure und Designer ebenso wie für Montageplaner und Sales- und Procurement-Experten, mal gekoppelt an ein CAD- oder PDM-System, mal als eigenständige Lösung.
 
 Die Vielzahl der vorhandenen Datenschnittstellen ermöglicht das Verarbeiten von Daten der unterschiedlichen Produktentwicklungsumgebungen (CATIA, Creo, NX, SolidWorks u. v. m.).
 
@@ -20,7 +20,7 @@ Die Module verarbeiten alle in der Industrie gängigen Datenformate. Damit ist d
 
 ## Leistungsstark und automatisiert
 
-Leistungsfähige, stabile und methodisch innovative Algorithmen gewährleisten höchste Performance, selbst auf Standard-Hardware. Alle Module können auch im Batch betrieben werden und erleichtern so die Verarbeitung von 3D-Massendaten – auf Servern bis hin zu Rechen-Clustern. Nahezu alle DMU-Prozesse lassen sich vollständig automatisieren.
+Leistungsfähige, stabile und methodisch innovative Algorithmen gewährleisten höchste Performance, selbst auf Standard-Hardware. Alle Module können auch im Batch betrieben werden und erleichtern so die Verarbeitung von 3D-Massendaten. Nahezu alle 3D-Analyse-Prozesse lassen sich so vollständig automatisieren.
 
 ## Module
 
