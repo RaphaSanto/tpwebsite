@@ -3,7 +3,7 @@ title: "veo"
 lang: de
 slug: "veo"
 order: 2
-teaser: "Design-Validierung für Druckuss- und Spritzgussbauteile – Fertigungsgerechtheit in Sekunden prüfen, direkt am 3D-CAD-Modell."
+teaser: "Design-Validierung für Druckguss- und Spritzgussbauteile – Fertigungsgerechtheit in Sekunden prüfen, direkt am 3D-CAD-Modell."
 ---
 
 ## Design for Manufacturing
