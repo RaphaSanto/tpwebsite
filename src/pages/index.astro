@@ -15,9 +15,9 @@ const products = (await getCollection('products', (e) => e.data.lang === lang))
 const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
 ---
 <SiteLayout
-  title="Teraport – Software für Werkzeugkostenkalkulation & 3D-Visualisierung"
+  title="Teraport – Software für Werkzeugkostenkalkulation & 3D-Analysen"
   lang={lang}
-  description="Teraport GmbH: mido (Werkzeugkostenkalkulation aus CAD) und veo (3D-Viewer für große Baugruppen). Software und Engineering aus München."
+  description="Teraport GmbH: Software für 3D-Analysen und Werkzeugkostenkalkulation aus München."
   altHref="/en/"
 >
   <Hero
@@ -25,7 +25,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
     title={t(lang, 'home.hero.title')}
     ctaLabel={t(lang, 'home.hero.cta')}
     ctaHref="/kontakt/"
-    subline="Werkzeugkosten, Machbarkeit und 3D-Analyse – automatisiert, nachvollziehbar und direkt aus dem CAD-Modell."
+    subline="Design-Validierung und Werkzeugkostenkalkulation, – mit mächtigen Lösungen schnell und einfach vom 3D-CAD-Modell zu umfangreichen und nachvollziehbaren Ergebnissen."
     cta2Label="Produkte ansehen"
     cta2Href="#produkte"
     image={heroImg}

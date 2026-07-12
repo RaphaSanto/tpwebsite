@@ -15,9 +15,9 @@ const products = (await getCollection('products', (e) => e.data.lang === lang))
 const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
 ---
 <SiteLayout
-  title="Teraport – Software for tool cost calculation & 3D visualization"
+  title="Teraport – Software for tool cost calculation & 3D analysis"
   lang={lang}
-  description="Teraport GmbH: mido (tool cost calculation from CAD) and veo (3D viewer for large assemblies). Software and engineering from Munich."
+  description="Teraport GmbH: software for 3D analysis and tool cost calculation from Munich."
   altHref="/"
 >
   <Hero
@@ -25,7 +25,7 @@ const latest = newsByLang(await getCollection('news'), lang).slice(0, 3);
     title={t(lang, 'home.hero.title')}
     ctaLabel={t(lang, 'home.hero.cta')}
     ctaHref="/en/contact/"
-    subline="Tool costs, feasibility and 3D analysis – automated, traceable and straight from the CAD model."
+    subline="Design validation and tool cost calculation – powerful solutions that take you quickly and easily from the 3D CAD model to comprehensive, traceable results."
     cta2Label="View products"
     cta2Href="#products"
     image={heroImg}
